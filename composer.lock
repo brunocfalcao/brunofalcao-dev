@@ -695,12 +695,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-payments.git",
-                "reference": "2c3e8ed181fc9bf5376cd2280495ccc0d553d033"
+                "reference": "f28bbd121dd754cc7dce702b984d83db229c3985"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-payments/zipball/2c3e8ed181fc9bf5376cd2280495ccc0d553d033",
-                "reference": "2c3e8ed181fc9bf5376cd2280495ccc0d553d033",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-payments/zipball/f28bbd121dd754cc7dce702b984d83db229c3985",
+                "reference": "f28bbd121dd754cc7dce702b984d83db229c3985",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +745,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-payments/issues",
                 "source": "https://github.com/brunocfalcao/eduka-payments/tree/master"
             },
-            "time": "2023-08-31T13:55:21+00:00"
+            "time": "2023-08-31T17:59:43+00:00"
         },
         {
             "name": "brunocfalcao/eduka-services",
