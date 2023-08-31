@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/course-mastering-nova.git",
-                "reference": "d20b345a39fc9f09f4c7c8f65e8bea103eaff715"
+                "reference": "23a6775692699b4091c28c3d905ee041920c26e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/d20b345a39fc9f09f4c7c8f65e8bea103eaff715",
-                "reference": "d20b345a39fc9f09f4c7c8f65e8bea103eaff715",
+                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/23a6775692699b4091c28c3d905ee041920c26e1",
+                "reference": "23a6775692699b4091c28c3d905ee041920c26e1",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +295,7 @@
                 "issues": "https://github.com/brunocfalcao/course-mastering-nova/issues",
                 "source": "https://github.com/brunocfalcao/course-mastering-nova/tree/master"
             },
-            "time": "2023-08-24T17:39:16+00:00"
+            "time": "2023-08-31T14:52:19+00:00"
         },
         {
             "name": "brunocfalcao/eduka-abstracts",
@@ -695,12 +695,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-payments.git",
-                "reference": "24ebb2b718c1ecfd2d3a7ae6e28aa0c739e09d82"
+                "reference": "2c3e8ed181fc9bf5376cd2280495ccc0d553d033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-payments/zipball/24ebb2b718c1ecfd2d3a7ae6e28aa0c739e09d82",
-                "reference": "24ebb2b718c1ecfd2d3a7ae6e28aa0c739e09d82",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-payments/zipball/2c3e8ed181fc9bf5376cd2280495ccc0d553d033",
+                "reference": "2c3e8ed181fc9bf5376cd2280495ccc0d553d033",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +745,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-payments/issues",
                 "source": "https://github.com/brunocfalcao/eduka-payments/tree/master"
             },
-            "time": "2023-08-30T00:05:16+00:00"
+            "time": "2023-08-31T13:55:21+00:00"
         },
         {
             "name": "brunocfalcao/eduka-services",
@@ -7897,16 +7897,16 @@
         },
         {
             "name": "composer/semver",
-            "version": "3.3.2",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "3953f23262f2bff1919fc82183ad9acb13ff62c9"
+                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/3953f23262f2bff1919fc82183ad9acb13ff62c9",
-                "reference": "3953f23262f2bff1919fc82183ad9acb13ff62c9",
+                "url": "https://api.github.com/repos/composer/semver/zipball/35e8d0af4486141bc745f23a29cc2091eb624a32",
+                "reference": "35e8d0af4486141bc745f23a29cc2091eb624a32",
                 "shasum": ""
             },
             "require": {
@@ -7956,9 +7956,9 @@
                 "versioning"
             ],
             "support": {
-                "irc": "irc://irc.freenode.org/composer",
+                "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/semver/issues",
-                "source": "https://github.com/composer/semver/tree/3.3.2"
+                "source": "https://github.com/composer/semver/tree/3.4.0"
             },
             "funding": [
                 {
@@ -7974,7 +7974,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-01T19:23:25+00:00"
+            "time": "2023-08-31T09:50:34+00:00"
         },
         {
             "name": "composer/xdebug-handler",
