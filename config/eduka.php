@@ -73,7 +73,7 @@ return [
          * The assets transfer will run on each composer update to copy all
          * the assets from resources/assets from each course landing page, and
          * from the backend, to the main laravel resources path, grouped by
-         * vendor name. This is because the Vite::asset() on each course package
+         * vendor name. This is because the asset() on each course package
          * doesn't locate assets inside the custom course package, but only
          * on the main resource() folder.
          *

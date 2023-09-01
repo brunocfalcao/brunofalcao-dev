@@ -9,3 +9,7 @@
 | The Eduka route files are loaded dynamically by the framework.
 |
 */
+
+Route::get('/',function(){
+    return view('commings-soon');
+});
