@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "34851bd12c81c1e8c5e7ca60f5aedbf6",
+    "content-hash": "73f59db97807d15664be553b6e6207ab",
     "packages": [
         {
             "name": "andreiio/blade-iconoir",
@@ -268,6 +268,14 @@
                     "MasteringNova\\Database\\Seeders\\": "database/seeders/"
                 }
             },
+            "scripts": {
+                "post-update-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ],
+                "post-require-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -282,6 +290,49 @@
             "homepage": "https://github.com/brunocfalcao/course-mastering-nova",
             "keywords": [
                 "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "brunocfalcao/dev",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/eduka/dev",
+                "reference": "dbf9e16362d0c2ae2017150a8d1cf3c7a1421dcd"
+            },
+            "require": {
+                "brunocfalcao/course-mastering-nova": "dev-master",
+                "brunocfalcao/eduka-nereus": "dev-master",
+                "illuminate/support": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Brunocfalcao\\Dev\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcao",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "homepage": "https://www.brunofalcao.dev",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Brunofalcao.dev website",
+            "homepage": "https://github.com/brunocfalcao/dev",
+            "keywords": [
+                "Bruno Falcao",
+                "Laravel",
+                "Tutorials"
             ],
             "transport-options": {
                 "symlink": true,
@@ -8991,7 +9042,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-mastering-nova": 20,
-        "brunocfalcao/eduka-installer": 20
+        "brunocfalcao/eduka-installer": 20,
+        "brunocfalcao/dev": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
