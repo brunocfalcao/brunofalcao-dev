@@ -251,7 +251,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "1e0ca0fc845dd82bc64cfe07af94dea36e9fb02c"
+                "reference": "398607d1304de2e521f168b0609c0b47d4d48ddc"
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -2448,7 +2448,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "659525277816410863d8763a0dee9e00a92ea0f9"
+                "reference": "1cdace4e54d517c2bee16669ded9c9abca7e1f44"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
