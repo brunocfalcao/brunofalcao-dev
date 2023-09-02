@@ -84,7 +84,7 @@ return [
          */
         'assets-transfer-vendors' => [
             'course-mastering-nova',
-            'dev',
+            'eduka-dev',
         ],
     ],
 ];
