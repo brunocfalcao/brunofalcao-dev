@@ -251,12 +251,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/course-mastering-nova.git",
-                "reference": "8e520e692f556f55372c840dd835b551cb7d6259"
+                "reference": "504b4f92462cd27412922aa04dc8bbcae6e6536a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/8e520e692f556f55372c840dd835b551cb7d6259",
-                "reference": "8e520e692f556f55372c840dd835b551cb7d6259",
+                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/504b4f92462cd27412922aa04dc8bbcae6e6536a",
+                "reference": "504b4f92462cd27412922aa04dc8bbcae6e6536a",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +295,7 @@
                 "issues": "https://github.com/brunocfalcao/course-mastering-nova/issues",
                 "source": "https://github.com/brunocfalcao/course-mastering-nova/tree/master"
             },
-            "time": "2023-09-07T13:54:40+00:00"
+            "time": "2023-09-07T14:26:49+00:00"
         },
         {
             "name": "brunocfalcao/eduka-abstracts",
