@@ -6,10 +6,6 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        },
-        {
             "type": "path",
             "url": "packages/eduka/*",
             "options": {
