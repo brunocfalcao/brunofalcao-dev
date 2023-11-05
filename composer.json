@@ -4,11 +4,37 @@
     "description": "The brunofalcao dot dev website",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        },
+        {
+            "type": "path",
+            "url": "packages/eduka/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "packages/brunocfalcao/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "packages/laravel/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
     "require": {
         "php": "^8.1",
         "brunocfalcao/course-mastering-nova": "dev-master",
         "brunocfalcao/eduka-installer": "dev-master",
-        "brunocfalcao/eduka-dev": "dev-master",
         "guzzlehttp/guzzle": "^7.5",
         "laravel/framework": "^10.8",
         "symfony/http-client": "^6.2",
