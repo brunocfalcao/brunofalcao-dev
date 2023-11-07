@@ -96,4 +96,6 @@ return [
         'course-mastering-nova',
         'dev',
     ],
+
+    'currency' => env('EDUKA_CURRENCY','EUR'),
 ];

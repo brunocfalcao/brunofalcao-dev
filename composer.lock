@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "250b28823064d72dafa561e562c8eae4",
+=======
+    "content-hash": "03c1acaf2cd5232d89cc5a3bac737c03",
+>>>>>>> a3f498c (Add Nova components (WIP))
     "packages": [
         {
             "name": "andreiio/blade-iconoir",
@@ -929,10 +933,23 @@
         {
             "name": "brunocfalcao/laravel-helpers",
             "version": "dev-master",
+<<<<<<< HEAD
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
                 "reference": "22d28d25da7364fe182f1f16713803a49f5b462c"
+=======
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunocfalcao/laravel-helpers.git",
+                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunocfalcao/laravel-helpers/zipball/2cfa23b9474ee90212d738cbe64d2a444b377f3e",
+                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e",
+                "shasum": ""
+>>>>>>> a3f498c (Add Nova components (WIP))
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -947,6 +964,9 @@
                 }
             },
             "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
                 "psr-4": {
                     "Brunocfalcao\\LaravelHelpers\\": "src/"
                 }
@@ -966,10 +986,18 @@
             "keywords": [
                 "brunocfalcao"
             ],
+<<<<<<< HEAD
             "transport-options": {
                 "symlink": true,
                 "relative": true
             }
+=======
+            "support": {
+                "issues": "https://github.com/brunocfalcao/laravel-helpers/issues",
+                "source": "https://github.com/brunocfalcao/laravel-helpers/tree/master"
+            },
+            "time": "2023-10-29T21:05:58+00:00"
+>>>>>>> a3f498c (Add Nova components (WIP))
         },
         {
             "name": "composer/ca-bundle",
@@ -2821,6 +2849,7 @@
         },
         {
             "name": "laravel/nova",
+<<<<<<< HEAD
             "version": "4.29.2",
             "dist": {
                 "type": "path",
@@ -2949,6 +2978,125 @@
             },
             "dist": {
                 "type": "zip",
+=======
+            "version": "4.22.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:laravel/nova.git",
+                "reference": "845062cbaba71af76a9e29580fba07525350d9b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-845062cbaba71af76a9e29580fba07525350d9b2-zip-ffdb23.zip",
+                "reference": "845062cbaba71af76a9e29580fba07525350d9b2",
+                "shasum": "4816ab2483d1049577f0ca82ed34ac27d3be1ee9"
+            },
+            "require": {
+                "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
+                "doctrine/dbal": "^2.13.3|^3.1.2",
+                "ext-json": "*",
+                "illuminate/support": "^8.83.4|^9.3.1|^10.0",
+                "inertiajs/inertia-laravel": "^0.4.5|^0.5.2|^0.6.0",
+                "laravel/ui": "^3.3|^4.0",
+                "nesbot/carbon": "^2.53.1",
+                "php": "^7.3|^8.0",
+                "rap2hpoutre/fast-excel": "^3.2|^4.1|^5.0",
+                "spatie/once": "^1.1|^2.0|^3.0",
+                "symfony/console": "^5.4|^6.0",
+                "symfony/finder": "^5.4|^6.0",
+                "symfony/polyfill-intl-icu": "^1.22.1",
+                "symfony/process": "^5.4|^6.0"
+            },
+            "require-dev": {
+                "laravel/nova-dusk-suite": "8.4.x-dev|9.4.x-dev|10.4.x-dev",
+                "laravel/pint": "^1.6",
+                "laravel/scout": "^9.8|^10.0",
+                "mockery/mockery": "^1.4.4",
+                "nunomaduro/larastan": "^1.0.1|^2.5.1",
+                "orchestra/testbench-dusk": "^6.24|^7.21|^8.0",
+                "phpunit/phpunit": "^9.5.27",
+                "predis/predis": "^1.1.9|^2.0"
+            },
+            "suggest": {
+                "ext-intl": "Required to format Currency field"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Nova\\NovaCoreServiceProvider"
+                    ],
+                    "aliases": {
+                        "Nova": "Laravel\\Nova\\Nova"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Nova\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Laravel\\Nova\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "dusk:prepare": [
+                    "./vendor/bin/dusk-updater detect --auto-update",
+                    "@php -r \"file_exists('phpunit.dusk.xml') || copy('phpunit.dusk.xml.dist', 'phpunit.dusk.xml'); \"",
+                    "@php -r \"if (file_exists('.env.dusk')) { copy('.env.dusk', 'vendor/laravel/nova-dusk-suite/.env'); } else { copy('.env.dusk.example', 'vendor/laravel/nova-dusk-suite/.env'); }\"",
+                    "./vendor/bin/testbench-dusk package:discover"
+                ],
+                "dusk:dev-assets": [
+                    "TAILWIND_MODE=build npm run dev",
+                    "./vendor/bin/testbench-dusk nova:publish --force"
+                ],
+                "dusk:assets": [
+                    "TAILWIND_MODE=build npm run prod",
+                    "./vendor/bin/testbench-dusk nova:publish --force"
+                ],
+                "dusk:test": [
+                    "./vendor/bin/testbench-dusk package:dusk-purge",
+                    "./vendor/bin/phpunit -c phpunit.dusk.xml"
+                ],
+                "dusk:filter": [
+                    "./vendor/bin/testbench-dusk package:dusk-purge && ./vendor/bin/phpunit -c phpunit.dusk.xml --filter"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "A wonderful administration interface for Laravel.",
+            "keywords": [
+                "admin",
+                "laravel"
+            ],
+            "support": {
+                "source": "https://github.com/laravel/nova/tree/v4.22.2"
+            },
+            "time": "2023-03-07T18:10:41+00:00"
+        },
+        {
+            "name": "laravel/serializable-closure",
+            "version": "v1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/serializable-closure.git",
+                "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c"
+            },
+            "dist": {
+                "type": "zip",
+>>>>>>> a3f498c (Add Nova components (WIP))
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "reference": "076fe2cf128bd54b4341cdc6d49b95b34e101e4c",
                 "shasum": ""
@@ -3251,6 +3399,7 @@
         },
         {
             "name": "league/flysystem",
+<<<<<<< HEAD
             "version": "3.19.0",
             "source": {
                 "type": "git",
@@ -3261,6 +3410,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1b2aa10f2326e0351399b8ce68e287d8e9209a83",
                 "reference": "1b2aa10f2326e0351399b8ce68e287d8e9209a83",
+=======
+            "version": "3.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "015633a05aee22490495159237a5944091d8281e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/015633a05aee22490495159237a5944091d8281e",
+                "reference": "015633a05aee22490495159237a5944091d8281e",
+>>>>>>> a3f498c (Add Nova components (WIP))
                 "shasum": ""
             },
             "require": {
@@ -3325,7 +3486,11 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem/tree/3.19.0"
+=======
+                "source": "https://github.com/thephpleague/flysystem/tree/3.18.0"
+>>>>>>> a3f498c (Add Nova components (WIP))
             },
             "funding": [
                 {
@@ -3337,6 +3502,7 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-11-07T09:04:28+00:00"
         },
         {
@@ -3351,6 +3517,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/8d868217f9eeb4e9a7320db5ccad825e9a7a4076",
                 "reference": "8d868217f9eeb4e9a7320db5ccad825e9a7a4076",
+=======
+            "time": "2023-10-20T17:59:40+00:00"
+        },
+        {
+            "name": "league/flysystem-local",
+            "version": "3.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem-local.git",
+                "reference": "e7381ef7643f658b87efb7dbe98fe538fb1bbf32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/e7381ef7643f658b87efb7dbe98fe538fb1bbf32",
+                "reference": "e7381ef7643f658b87efb7dbe98fe538fb1bbf32",
+>>>>>>> a3f498c (Add Nova components (WIP))
                 "shasum": ""
             },
             "require": {
@@ -3385,7 +3567,11 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem-local/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/flysystem-local/tree/3.19.0"
+=======
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.18.0"
+>>>>>>> a3f498c (Add Nova components (WIP))
             },
             "funding": [
                 {
@@ -3397,7 +3583,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-11-06T20:35:28+00:00"
+=======
+            "time": "2023-10-19T20:07:13+00:00"
+>>>>>>> a3f498c (Add Nova components (WIP))
         },
         {
             "name": "league/mime-type-detection",
@@ -8632,6 +8822,7 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
+<<<<<<< HEAD
             "version": "v3.38.0",
             "source": {
                 "type": "git",
@@ -8642,6 +8833,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7e6070026e76aa09d77a47519625c86593fb8e31",
                 "reference": "7e6070026e76aa09d77a47519625c86593fb8e31",
+=======
+            "version": "v3.37.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
+                "reference": "c3fe76976081ab871aa654e872da588077e19679"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/c3fe76976081ab871aa654e872da588077e19679",
+                "reference": "c3fe76976081ab871aa654e872da588077e19679",
+>>>>>>> a3f498c (Add Nova components (WIP))
                 "shasum": ""
             },
             "require": {
@@ -8713,7 +8916,11 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.0"
+=======
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.37.1"
+>>>>>>> a3f498c (Add Nova components (WIP))
             },
             "funding": [
                 {
@@ -8721,7 +8928,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-11-07T08:44:54+00:00"
+=======
+            "time": "2023-10-29T20:51:23+00:00"
+>>>>>>> a3f498c (Add Nova components (WIP))
         },
         {
             "name": "jubeki/laravel-code-style",
