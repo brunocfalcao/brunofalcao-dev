@@ -28,6 +28,10 @@
             "options": {
                 "symlink": true
             }
+        },
+        "3": {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
         }
     },
     "require": {

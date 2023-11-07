@@ -98,4 +98,5 @@ return [
     ],
 
     'currency' => env('EDUKA_CURRENCY','EUR'),
+    'currency_symbol' => env('EDUKA_CURRENCY_SYMBOL','€'),
 ];
