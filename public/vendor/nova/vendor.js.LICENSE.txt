@@ -2,7 +2,6 @@
  * @license MIT */
 
 /*!
-<<<<<<< HEAD
 			 * numbro.js language configuration
 			 * language : Bulgarian
 			 * author : Tim McIntosh (StayinFront NZ)
@@ -446,8 +445,6 @@
 	 */
 
 /*!
-=======
->>>>>>> a3f498c (Add Nova components (WIP))
 	autosize 4.0.4
 	license: MIT
 	http://www.jacklmoore.com/autosize
@@ -470,7 +467,6 @@
  */
 
 /*!
-<<<<<<< HEAD
  * vuex v4.1.0
  * (c) 2022 Evan You
  * @license MIT
@@ -486,13 +482,6 @@
 * @license MIT, https://github.com/focus-trap/tabbable/blob/master/LICENSE
 */
 
-=======
- * vuex v4.0.2
- * (c) 2021 Evan You
- * @license MIT
- */
-
->>>>>>> a3f498c (Add Nova components (WIP))
 /*! Hammer.JS - v2.0.7 - 2016-04-22
  * http://hammerjs.github.io/
  *
