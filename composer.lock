@@ -739,7 +739,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
+<<<<<<< HEAD
                 "reference": "91ee5573cb08ddff12b472f4955a5e273befb12e"
+=======
+                "reference": "83681080a6425c7d4aa8a492f41993f48b74f9b7"
+>>>>>>> bd5ed0f (WIP)
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
