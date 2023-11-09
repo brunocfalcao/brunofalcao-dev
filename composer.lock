@@ -628,7 +628,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "1ba5f5a42235e709dac39232672f95fd8b4d1061"
+                "reference": "3e7d0694683656150a511c5b02f78e52a2ce0808"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -677,7 +677,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "bdb59b4cd6fd4da624f6a3a582c13dd5e41f7a11"
+                "reference": "db4dfc756366f3da28608d881c5c328ecfbad7e6"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
