@@ -7,33 +7,33 @@
         "laravel"
     ],
     "license": "MIT",
-    "repositories": {
-        "0": {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        },
+        {
             "type": "path",
             "url": "packages/eduka/*",
             "options": {
                 "symlink": true
             }
         },
-        "1": {
+        {
             "type": "path",
             "url": "packages/brunocfalcao/*",
             "options": {
                 "symlink": true
             }
         },
-        "2": {
+        {
             "type": "path",
             "url": "packages/laravel/*",
             "options": {
                 "symlink": true
             }
-        },
-        "3": {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
         }
-    },
+    ],
     "require": {
         "php": "^8.1",
         "brunocfalcao/course-mastering-nova": "dev-master",
