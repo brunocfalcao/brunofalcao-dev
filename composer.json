@@ -2,36 +2,12 @@
     "name": "brunocfalcao/brunofalcao-dev",
     "type": "project",
     "description": "The brunofalcao dot dev website",
-    "keywords": [
-        "framework",
-        "laravel"
-    ],
+    "keywords": ["framework", "laravel"],
     "license": "MIT",
     "repositories": [
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
-        },
-        {
-            "type": "path",
-            "url": "packages/eduka/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "packages/brunocfalcao/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "packages/laravel/*",
-            "options": {
-                "symlink": true
-            }
         }
     ],
     "require": {
@@ -39,13 +15,14 @@
         "brunocfalcao/course-mastering-nova": "dev-master",
         "brunocfalcao/eduka-installer": "dev-master",
         "guzzlehttp/guzzle": "^7.5",
-        "laravel/framework": "^10.8"
+        "laravel/framework": "^10.8",
+        "symfony/http-client": "^6.2",
+        "symfony/postmark-mailer": "^6.2"
     },
     "require-dev": {
+        "fakerphp/faker": "^1.9.1",
         "jubeki/laravel-code-style": "^2.4",
         "nunomaduro/collision": "^7.0",
-        "pestphp/pest": "^2.24",
-        "pestphp/pest-plugin-laravel": "^2.2",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
@@ -70,9 +47,6 @@
         ],
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
-        ],
-        "post-require-cmd": [
-            "@php artisan eduka:publish-assets"
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
