@@ -9,8 +9,8 @@ if errorlevel 1 goto :error
 timeout /t 2 /nobreak
 
 :: Step 2
-echo "Step 2: Renaming composer.forge.json to composer.json"
-ren composer.forge.json composer.json
+echo "Step 2: Renaming composer.ploi.json to composer.json"
+ren composer.ploi.json composer.json
 if errorlevel 1 goto :error
 
 :: Wait
@@ -27,7 +27,7 @@ timeout /t 2 /nobreak
 :: Step 4
 echo "Step 4: Committing and pushing to remote repo"
 git add -A
-git commit -m "forge deploy"
+git commit -m "ploy release"
 git push
 if errorlevel 1 goto :error
 
@@ -35,8 +35,8 @@ if errorlevel 1 goto :error
 timeout /t 2 /nobreak
 
 :: Step 5
-echo "Step 5: Renaming composer.json to composer.forge.json"
-ren composer.json composer.forge.json
+echo "Step 5: Renaming composer.json to composer.ploi.json"
+ren composer.json composer.ploi.json
 if errorlevel 1 goto :error
 
 :: Wait
