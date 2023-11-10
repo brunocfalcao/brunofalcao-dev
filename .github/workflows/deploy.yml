@@ -9,7 +9,7 @@ jobs:
   ploi-deploy:
     name: 'Ploi Deploy'
     runs-on: ubuntu-latest
-    if: "contains(github.event.head_commit.message, '[ploi release]')"
+    if: "contains(github.event.head_commit.message, 'ploi deploy')"
 
     steps:
       # Checkout the repository to the GitHub Actions runner
