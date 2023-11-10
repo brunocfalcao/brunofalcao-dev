@@ -47,6 +47,8 @@
         "fakerphp/faker": "^1.9.1",
         "jubeki/laravel-code-style": "^2.4",
         "nunomaduro/collision": "^7.0",
+        "pestphp/pest": "^2.24",
+        "pestphp/pest-plugin-laravel": "^2.2",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {

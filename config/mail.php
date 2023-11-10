@@ -78,6 +78,10 @@ return [
                 'log',
             ],
         ],
+
+        'zeptomail' => [
+            'transport' => 'zeptomail',
+        ],
     ],
 
     /*
