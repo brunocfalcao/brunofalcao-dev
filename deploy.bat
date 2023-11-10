@@ -27,7 +27,7 @@ timeout /t 2 /nobreak
 :: Step 4
 echo "Step 4: Committing and pushing to remote repo"
 git add -A
-git commit -m "ploy release"
+git commit -m "ploi deploy"
 git push
 if errorlevel 1 goto :error
 
