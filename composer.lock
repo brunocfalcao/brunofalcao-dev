@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "894e5cc6029c8fb1093a99cd21861337",
+    "content-hash": "4f4bb134a0bf7d201bf6c2a6177bee23",
     "packages": [
         {
             "name": "andreiio/blade-iconoir",
@@ -356,28 +356,20 @@
         {
             "name": "brunocfalcao/cerebrus",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/cerebrus.git",
-                "reference": "270f336056f8f7b0b831b5114f7f95a87ed44288"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/cerebrus/zipball/270f336056f8f7b0b831b5114f7f95a87ed44288",
-                "reference": "270f336056f8f7b0b831b5114f7f95a87ed44288",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/cerebrus",
+                "reference": "270f336056f8f7b0b831b5114f7f95a87ed44288"
             },
             "require": {
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Brunocfalcao\\Cerebrus\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -396,25 +388,18 @@
                 "php",
                 "session"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/cerebrus/issues",
-                "source": "https://github.com/brunocfalcao/cerebrus/tree/master"
-            },
-            "time": "2023-08-31T07:26:14+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/course-mastering-nova",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/course-mastering-nova.git",
-                "reference": "0be212892fb35700ee294764d218f8a1d55cb84a"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/0be212892fb35700ee294764d218f8a1d55cb84a",
-                "reference": "0be212892fb35700ee294764d218f8a1d55cb84a",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/course-mastering-nova",
+                "reference": "0be212892fb35700ee294764d218f8a1d55cb84a"
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -423,16 +408,22 @@
                 "owenvoke/blade-fontawesome": "^2.1",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "MasteringNova\\": "src/",
-                    "MasteringNova\\Database\\Seeders\\": "database/seeders/",
-                    "MasteringNova\\Database\\Factories\\": "database/factories/"
+                    "MasteringNova\\Database\\Factories\\": "database/factories/",
+                    "MasteringNova\\Database\\Seeders\\": "database/seeders/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "post-update-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ],
+                "post-require-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -448,38 +439,29 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/course-mastering-nova/issues",
-                "source": "https://github.com/brunocfalcao/course-mastering-nova/tree/master"
-            },
-            "time": "2023-11-10T20:27:51+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-abstracts",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-abstracts.git",
-                "reference": "a46c00c6e484d450e5d1b2bf9ff9d913e83de127"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-abstracts/zipball/a46c00c6e484d450e5d1b2bf9ff9d913e83de127",
-                "reference": "a46c00c6e484d450e5d1b2bf9ff9d913e83de127",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-abstracts",
+                "reference": "a46c00c6e484d450e5d1b2bf9ff9d913e83de127"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Eduka\\Abstracts\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -495,25 +477,18 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-abstracts/issues",
-                "source": "https://github.com/brunocfalcao/eduka-abstracts/tree/master"
-            },
-            "time": "2023-08-31T22:36:51+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-analytics",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-analytics.git",
-                "reference": "ebaf73de5bac3b70408c0d243bb3a6d06526d36a"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-analytics/zipball/ebaf73de5bac3b70408c0d243bb3a6d06526d36a",
-                "reference": "ebaf73de5bac3b70408c0d243bb3a6d06526d36a",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-analytics",
+                "reference": "ebaf73de5bac3b70408c0d243bb3a6d06526d36a"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -523,7 +498,6 @@
                 "jenssegers/agent": "^2.6",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -537,7 +511,6 @@
                     "Eduka\\Analytics\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -553,25 +526,18 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-analytics/issues",
-                "source": "https://github.com/brunocfalcao/eduka-analytics/tree/master"
-            },
-            "time": "2023-05-02T22:23:32+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-cube",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-cube.git",
-                "reference": "cda5f55176bd164a296fb425105d4164b4615f03"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-cube/zipball/cda5f55176bd164a296fb425105d4164b4615f03",
-                "reference": "cda5f55176bd164a296fb425105d4164b4615f03",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-cube",
+                "reference": "cda5f55176bd164a296fb425105d4164b4615f03"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -580,7 +546,6 @@
                 "lemonsqueezy/laravel": "^0.2.1",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -594,7 +559,6 @@
                     "Eduka\\Cube\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -610,39 +574,30 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-cube/issues",
-                "source": "https://github.com/brunocfalcao/eduka-cube/tree/master"
-            },
-            "time": "2023-11-10T20:01:23+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-dev",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-dev.git",
-                "reference": "dcf0dcb14cd7f7497d1bdc591723f1d251f3e542"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-dev/zipball/dcf0dcb14cd7f7497d1bdc591723f1d251f3e542",
-                "reference": "dcf0dcb14cd7f7497d1bdc591723f1d251f3e542",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-dev",
+                "reference": "dcf0dcb14cd7f7497d1bdc591723f1d251f3e542"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
                 "illuminate/support": "^10.0",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Eduka\\Dev\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -657,45 +612,36 @@
             "description": "Eduka backend",
             "homepage": "https://github.com/brunocfalcao/eduka-dev",
             "keywords": [
-                "bruno falcao",
-                "laravel",
-                "tutorials"
+                "Bruno Falcao",
+                "Laravel",
+                "Tutorials"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-dev/issues",
-                "source": "https://github.com/brunocfalcao/eduka-dev/tree/master"
-            },
-            "time": "2023-11-06T21:13:46+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-helpers",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-helpers.git",
-                "reference": "1bcbb1ecbb3731623083d7b2f19d9b089e2778b5"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-helpers/zipball/1bcbb1ecbb3731623083d7b2f19d9b089e2778b5",
-                "reference": "1bcbb1ecbb3731623083d7b2f19d9b089e2778b5",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-helpers",
+                "reference": "1bcbb1ecbb3731623083d7b2f19d9b089e2778b5"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
                 "psr-4": {
                     "Eduka\\Helpers\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -711,32 +657,24 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-helpers/issues",
-                "source": "https://github.com/brunocfalcao/eduka-helpers/tree/master"
-            },
-            "time": "2023-08-24T17:51:12+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-installer",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-installer.git",
-                "reference": "4f211ea3f797d68a1448e88c6d8b34430c7072dd"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-installer/zipball/4f211ea3f797d68a1448e88c6d8b34430c7072dd",
-                "reference": "4f211ea3f797d68a1448e88c6d8b34430c7072dd",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-installer",
+                "reference": "4f211ea3f797d68a1448e88c6d8b34430c7072dd"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -750,7 +688,6 @@
                     "Eduka\\Installer\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -766,25 +703,18 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-installer/issues",
-                "source": "https://github.com/brunocfalcao/eduka-installer/tree/master"
-            },
-            "time": "2023-11-05T16:48:18+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-migrations",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-migrations.git",
-                "reference": "3e7d0694683656150a511c5b02f78e52a2ce0808"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-migrations/zipball/3e7d0694683656150a511c5b02f78e52a2ce0808",
-                "reference": "3e7d0694683656150a511c5b02f78e52a2ce0808",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-migrations",
+                "reference": "3e7d0694683656150a511c5b02f78e52a2ce0808"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -792,7 +722,6 @@
                 "illuminate/contracts": "^10.0",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -804,11 +733,10 @@
             "autoload": {
                 "psr-4": {
                     "Eduka\\Migrations\\": "src/",
-                    "Eduka\\Database\\Seeders\\": "database/seeders/",
-                    "Eduka\\Database\\Factories\\": "database/factories/"
+                    "Eduka\\Database\\Factories\\": "database/factories/",
+                    "Eduka\\Database\\Seeders\\": "database/seeders/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -824,25 +752,18 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-migrations/issues",
-                "source": "https://github.com/brunocfalcao/eduka-migrations/tree/master"
-            },
-            "time": "2023-11-08T15:00:26+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-nereus",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-nereus.git",
-                "reference": "6a1b12958a8fcdeb8aed9b54c305f12abc4aad49"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-nereus/zipball/6a1b12958a8fcdeb8aed9b54c305f12abc4aad49",
-                "reference": "6a1b12958a8fcdeb8aed9b54c305f12abc4aad49",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-nereus",
+                "reference": "6a1b12958a8fcdeb8aed9b54c305f12abc4aad49"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -859,7 +780,6 @@
                 "hibit-dev/geodetect": "v1.1.0",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -876,7 +796,6 @@
                     "Eduka\\Nereus\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -894,11 +813,10 @@
                 "eduka",
                 "laravel"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-nereus/issues",
-                "source": "https://github.com/brunocfalcao/eduka-nereus/tree/master"
-            },
-            "time": "2023-11-10T20:01:49+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-nova",
@@ -959,16 +877,10 @@
         {
             "name": "brunocfalcao/eduka-payments",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-payments.git",
-                "reference": "c716635e7b161e08c21f21ac53a1f68caa9ba210"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-payments/zipball/c716635e7b161e08c21f21ac53a1f68caa9ba210",
-                "reference": "c716635e7b161e08c21f21ac53a1f68caa9ba210",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-payments",
+                "reference": "c716635e7b161e08c21f21ac53a1f68caa9ba210"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -978,7 +890,6 @@
                 "lemonsqueezy/laravel": "^0.2.1",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -992,7 +903,6 @@
                     "Eduka\\Payments\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1008,25 +918,18 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-payments/issues",
-                "source": "https://github.com/brunocfalcao/eduka-payments/tree/master"
-            },
-            "time": "2023-11-10T20:01:54+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-services",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-services.git",
-                "reference": "6abdf33baa7e4565cfefd8eaa3fbe149687cd57c"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-services/zipball/6abdf33baa7e4565cfefd8eaa3fbe149687cd57c",
-                "reference": "6abdf33baa7e4565cfefd8eaa3fbe149687cd57c",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-services",
+                "reference": "6abdf33baa7e4565cfefd8eaa3fbe149687cd57c"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1037,7 +940,6 @@
                 "symfony/http-client": "^6.1",
                 "symfony/postmark-mailer": "^6.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1047,14 +949,13 @@
                 }
             },
             "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
                 "psr-4": {
                     "Eduka\\Services\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1070,31 +971,23 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-services/issues",
-                "source": "https://github.com/brunocfalcao/eduka-services/tree/master"
-            },
-            "time": "2023-11-10T20:02:20+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-ui",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/eduka-ui.git",
-                "reference": "ea414122d338aa1e78ce297c3ba18b893ee099af"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-ui/zipball/ea414122d338aa1e78ce297c3ba18b893ee099af",
-                "reference": "ea414122d338aa1e78ce297c3ba18b893ee099af",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/eduka-ui",
+                "reference": "ea414122d338aa1e78ce297c3ba18b893ee099af"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1111,7 +1004,6 @@
                     "Eduka\\UI\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1127,32 +1019,24 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/eduka-ui/issues",
-                "source": "https://github.com/brunocfalcao/eduka-ui/tree/master"
-            },
-            "time": "2023-11-07T18:54:15+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/laravel-helpers",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/laravel-helpers.git",
-                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/laravel-helpers/zipball/2cfa23b9474ee90212d738cbe64d2a444b377f3e",
-                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-helpers",
+                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1",
                 "symfony/dom-crawler": "^6.3"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1162,14 +1046,13 @@
                 }
             },
             "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
                 "psr-4": {
                     "Brunocfalcao\\LaravelHelpers\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1185,32 +1068,24 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/laravel-helpers/issues",
-                "source": "https://github.com/brunocfalcao/laravel-helpers/tree/master"
-            },
-            "time": "2023-10-29T21:05:58+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/laravel-zepto-mail-api-driver",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver.git",
-                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/laravel-zepto-mail-api-driver/zipball/3a420bd4eafc63ff060eb9c6350a6d53027f0a22",
-                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-zepto-mail-api-driver",
+                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "pestphp/pest": "^2.24",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1224,7 +1099,11 @@
                     "Brunocfalcao\\ZeptoMailApiDriver\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Brunocfalcao\\ZeptoMailApiDriver\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1240,11 +1119,10 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver/issues",
-                "source": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver/tree/master"
-            },
-            "time": "2023-11-10T20:00:41+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "composer/ca-bundle",
@@ -3083,17 +2961,11 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.31.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/framework.git",
-                "reference": "507ce9b28bce4b5e4140c28943092ca38e9a52e4"
-            },
+            "version": "10.x-dev",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/507ce9b28bce4b5e4140c28943092ca38e9a52e4",
-                "reference": "507ce9b28bce4b5e4140c28943092ca38e9a52e4",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/laravel/framework",
+                "reference": "3d37d781d4bd299e17e4c58c6a85963747ac4762"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -3261,7 +3133,14 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "files": [
+                    "tests/Database/stubs/MigrationCreatorFakeMigration.php"
+                ],
+                "psr-4": {
+                    "Illuminate\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -3281,7 +3160,10 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-11-07T13:48:30+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "laravel/nova",
@@ -11603,6 +11485,75 @@
                 "source": "https://github.com/Jubeki/laravel-code-style/tree/2.9.0"
             },
             "time": "2023-10-12T14:36:02+00:00"
+        },
+        {
+            "name": "pestphp/pest-plugin-laravel",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pestphp/pest-plugin-laravel.git",
+                "reference": "77a2838c1d3b09d147211e76a48987ba9a758279"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pestphp/pest-plugin-laravel/zipball/77a2838c1d3b09d147211e76a48987ba9a758279",
+                "reference": "77a2838c1d3b09d147211e76a48987ba9a758279",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "^10.18.0|^11.0",
+                "pestphp/pest": "^2.13.0",
+                "php": "^8.1.0"
+            },
+            "require-dev": {
+                "laravel/dusk": "^7.9.3",
+                "orchestra/testbench": "^8.6.3",
+                "pestphp/pest-dev-tools": "^2.14.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Pest\\Laravel\\PestServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/Autoload.php"
+                ],
+                "psr-4": {
+                    "Pest\\Laravel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Pest Laravel Plugin",
+            "keywords": [
+                "framework",
+                "laravel",
+                "pest",
+                "php",
+                "test",
+                "testing",
+                "unit"
+            ],
+            "support": {
+                "source": "https://github.com/pestphp/pest-plugin-laravel/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.com/paypalme/enunomaduro",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/nunomaduro",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-08-10T15:37:09+00:00"
         },
         {
             "name": "spatie/backtrace",
