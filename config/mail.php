@@ -34,6 +34,11 @@ return [
     */
 
     'mailers' => [
+
+        'zeptomail' => [
+            'transport' => 'zeptomail',
+        ],
+
         'smtp' => [
             'transport' => 'smtp',
             'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
@@ -77,10 +82,6 @@ return [
                 'smtp',
                 'log',
             ],
-        ],
-
-        'zeptomail' => [
-            'transport' => 'zeptomail',
         ],
     ],
 
