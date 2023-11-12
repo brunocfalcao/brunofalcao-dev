@@ -721,12 +721,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-migrations.git",
-                "reference": "a1b838430731f42b0f63bcedc6d8bb9db13ed1e9"
+                "reference": "e8bf445f751dddd0dfbb8efe426eb88ab3bba827"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-migrations/zipball/a1b838430731f42b0f63bcedc6d8bb9db13ed1e9",
-                "reference": "a1b838430731f42b0f63bcedc6d8bb9db13ed1e9",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-migrations/zipball/e8bf445f751dddd0dfbb8efe426eb88ab3bba827",
+                "reference": "e8bf445f751dddd0dfbb8efe426eb88ab3bba827",
                 "shasum": ""
             },
             "require": {
@@ -771,7 +771,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-migrations/issues",
                 "source": "https://github.com/brunocfalcao/eduka-migrations/tree/master"
             },
-            "time": "2023-11-11T20:29:07+00:00"
+            "time": "2023-11-12T12:57:48+00:00"
         },
         {
             "name": "brunocfalcao/eduka-nereus",
@@ -779,12 +779,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-nereus.git",
-                "reference": "5c40b66e4f6101fff3a39c485f7e114ba26d45a5"
+                "reference": "f1f24573492c7ddbdf7ee285d2a9d170d2cda128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-nereus/zipball/5c40b66e4f6101fff3a39c485f7e114ba26d45a5",
-                "reference": "5c40b66e4f6101fff3a39c485f7e114ba26d45a5",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-nereus/zipball/f1f24573492c7ddbdf7ee285d2a9d170d2cda128",
+                "reference": "f1f24573492c7ddbdf7ee285d2a9d170d2cda128",
                 "shasum": ""
             },
             "require": {
@@ -841,7 +841,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-nereus/issues",
                 "source": "https://github.com/brunocfalcao/eduka-nereus/tree/master"
             },
-            "time": "2023-11-11T21:50:34+00:00"
+            "time": "2023-11-12T12:57:53+00:00"
         },
         {
             "name": "brunocfalcao/eduka-nova",
@@ -1082,12 +1082,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/laravel-helpers.git",
-                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e"
+                "reference": "95161879db3173108b5cc8273c90c89b261e6c59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/laravel-helpers/zipball/2cfa23b9474ee90212d738cbe64d2a444b377f3e",
-                "reference": "2cfa23b9474ee90212d738cbe64d2a444b377f3e",
+                "url": "https://api.github.com/repos/brunocfalcao/laravel-helpers/zipball/95161879db3173108b5cc8273c90c89b261e6c59",
+                "reference": "95161879db3173108b5cc8273c90c89b261e6c59",
                 "shasum": ""
             },
             "require": {
@@ -1132,7 +1132,7 @@
                 "issues": "https://github.com/brunocfalcao/laravel-helpers/issues",
                 "source": "https://github.com/brunocfalcao/laravel-helpers/tree/master"
             },
-            "time": "2023-10-29T21:05:58+00:00"
+            "time": "2023-11-12T12:57:42+00:00"
         },
         {
             "name": "brunocfalcao/laravel-tracer",
