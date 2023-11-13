@@ -66,7 +66,16 @@ return [
             // E.g.: MasteringNova\MasteringNovaServiceProvider
             'provider-class' => 'MasteringNova\MasteringNovaServiceProvider',
         ],
-        // ...
+
+        // E.g.: brunocfalcao/course-mastering-nova. Array key.
+        'brunocfalcao/course-nova-advanced-ui' => [
+
+            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
+            'seeder-class' => 'NovaAdvancedUI\Database\Seeders\NovaAdvancedUICourseSeeder',
+
+            // E.g.: MasteringNova\MasteringNovaServiceProvider
+            'provider-class' => 'NovaAdvancedUI\NovaAdvancedUIServiceProvider',
+        ],
     ],
 
     'backend' => [
