@@ -399,7 +399,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "5d0cbe15db931f81f4801b7a27a751480a7bbf35"
+                "reference": "70bc8075f84b618e2c15b96c442ab0fdf2a8ceb2"
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -984,7 +984,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "95161879db3173108b5cc8273c90c89b261e6c59"
+                "reference": "e544f1749798c58d3fdd4c387b06f16a71e03043"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -2852,7 +2852,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "20085feef61119b58fef540cba79595b4a85a89a"
+                "reference": "c6aeffded35c10ac60b14d4cff4b6c45dc57e9ea"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -11393,16 +11393,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.38.0",
+            "version": "v3.38.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "7e6070026e76aa09d77a47519625c86593fb8e31"
+                "reference": "d872cdd543797ade030aaa307c0a4954a712e081"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7e6070026e76aa09d77a47519625c86593fb8e31",
-                "reference": "7e6070026e76aa09d77a47519625c86593fb8e31",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/d872cdd543797ade030aaa307c0a4954a712e081",
+                "reference": "d872cdd543797ade030aaa307c0a4954a712e081",
                 "shasum": ""
             },
             "require": {
@@ -11474,7 +11474,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.38.2"
             },
             "funding": [
                 {
@@ -11482,7 +11482,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-07T08:44:54+00:00"
+            "time": "2023-11-14T00:19:22+00:00"
         },
         {
             "name": "jubeki/laravel-code-style",
