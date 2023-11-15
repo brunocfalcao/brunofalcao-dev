@@ -56,6 +56,16 @@ return [
             'throw' => false,
         ],
 
+
+        'b2' => [
+            'driver'         => 'b2',
+            'key'      => env('BACKBLAZE_KEY_ID'),
+            'accountId'      => env('BACKBLAZE_KEY_ID'),
+            'applicationKey' => env('BACKBLAZE_APP_KEY'),
+            'bucketName'     => env('BACKBLAZE_BUCKET_NAME'),
+            'bucketId'       => env('BACKBLAZE_BUCKET_ID'), //optional
+        ],
+
     ],
 
     /*
