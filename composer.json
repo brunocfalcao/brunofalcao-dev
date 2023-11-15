@@ -17,13 +17,6 @@
         },
         {
             "type": "path",
-            "url": "packages/brunocfalcao/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
             "url": "packages/laravel/*",
             "options": {
                 "symlink": true
@@ -35,21 +28,7 @@
         },
         {
             "type": "path",
-            "url": "packages/eduka/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
             "url": "packages/brunocfalcao/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "packages/laravel/*",
             "options": {
                 "symlink": true
             }
