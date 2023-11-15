@@ -106,4 +106,5 @@ return [
 
     'currency' => env('EDUKA_CURRENCY', 'EUR'),
     'currency_symbol' => env('EDUKA_CURRENCY_SYMBOL', '€'),
+    'skip_course_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false),
 ];
