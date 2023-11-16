@@ -1106,7 +1106,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "c62fe841c6284efba326eb7b7d57569bf689a268"
+                "reference": "dec9807b1907d1eada7f61ccb6890a552fa3cba3"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
