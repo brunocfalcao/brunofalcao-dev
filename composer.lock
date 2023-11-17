@@ -626,12 +626,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/course-mastering-nova.git",
-                "reference": "c602b9a43d71d48ef706fff1dbd60997917b27c4"
+                "reference": "23fb97f39d6d9729df15200f94396e90ae6d2a28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/c602b9a43d71d48ef706fff1dbd60997917b27c4",
-                "reference": "c602b9a43d71d48ef706fff1dbd60997917b27c4",
+                "url": "https://api.github.com/repos/brunocfalcao/course-mastering-nova/zipball/23fb97f39d6d9729df15200f94396e90ae6d2a28",
+                "reference": "23fb97f39d6d9729df15200f94396e90ae6d2a28",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +671,7 @@
                 "issues": "https://github.com/brunocfalcao/course-mastering-nova/issues",
                 "source": "https://github.com/brunocfalcao/course-mastering-nova/tree/master"
             },
-            "time": "2023-11-17T17:52:01+00:00"
+            "time": "2023-11-17T18:10:49+00:00"
         },
         {
             "name": "brunocfalcao/course-nova-advanced-ui",
@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/course-nova-advanced-ui.git",
-                "reference": "a56fd717690a1d535c53aee295e45bd963682a7a"
+                "reference": "05a1038c51be744d93142a9da43ce7d075e4ccb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-nova-advanced-ui/zipball/a56fd717690a1d535c53aee295e45bd963682a7a",
-                "reference": "a56fd717690a1d535c53aee295e45bd963682a7a",
+                "url": "https://api.github.com/repos/brunocfalcao/course-nova-advanced-ui/zipball/05a1038c51be744d93142a9da43ce7d075e4ccb8",
+                "reference": "05a1038c51be744d93142a9da43ce7d075e4ccb8",
                 "shasum": ""
             },
             "require": {
@@ -724,7 +724,7 @@
                 "issues": "https://github.com/brunocfalcao/course-nova-advanced-ui/issues",
                 "source": "https://github.com/brunocfalcao/course-nova-advanced-ui/tree/master"
             },
-            "time": "2023-11-17T17:52:22+00:00"
+            "time": "2023-11-17T18:10:21+00:00"
         },
         {
             "name": "brunocfalcao/eduka-abstracts",
@@ -779,12 +779,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-cube.git",
-                "reference": "af69379e95a47b4175b3b02e39478aeda63bcc2c"
+                "reference": "ac8b92e1ea05aa0aa0ad0033b80aca204d5fdba2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-cube/zipball/af69379e95a47b4175b3b02e39478aeda63bcc2c",
-                "reference": "af69379e95a47b4175b3b02e39478aeda63bcc2c",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-cube/zipball/ac8b92e1ea05aa0aa0ad0033b80aca204d5fdba2",
+                "reference": "ac8b92e1ea05aa0aa0ad0033b80aca204d5fdba2",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +830,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-cube/issues",
                 "source": "https://github.com/brunocfalcao/eduka-cube/tree/master"
             },
-            "time": "2023-11-17T17:51:52+00:00"
+            "time": "2023-11-17T18:10:27+00:00"
         },
         {
             "name": "brunocfalcao/eduka-dev",
@@ -994,12 +994,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brunocfalcao/eduka-migrations.git",
-                "reference": "fa68045d93f4ab95be80b34a7b3a1a58e71d48e6"
+                "reference": "09c7c63cae0ac4f535ad477f3cd8d37a9930d862"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/eduka-migrations/zipball/fa68045d93f4ab95be80b34a7b3a1a58e71d48e6",
-                "reference": "fa68045d93f4ab95be80b34a7b3a1a58e71d48e6",
+                "url": "https://api.github.com/repos/brunocfalcao/eduka-migrations/zipball/09c7c63cae0ac4f535ad477f3cd8d37a9930d862",
+                "reference": "09c7c63cae0ac4f535ad477f3cd8d37a9930d862",
                 "shasum": ""
             },
             "require": {
@@ -1044,7 +1044,7 @@
                 "issues": "https://github.com/brunocfalcao/eduka-migrations/issues",
                 "source": "https://github.com/brunocfalcao/eduka-migrations/tree/master"
             },
-            "time": "2023-11-17T17:52:28+00:00"
+            "time": "2023-11-17T18:10:32+00:00"
         },
         {
             "name": "brunocfalcao/eduka-nereus",
