@@ -12,15 +12,14 @@
 
 use Eduka\Cube\Models\Video;
 use Eduka\Nova\Actions\VimeoHandler;
-use Illuminate\Support\Arr;
 
-Route::get('y', function(){
+Route::get('y', function () {
 
     $video = Video::first();
 
     $courses = [];
 
-    $video->chapters->each(function($chapter) use(&$courses) {
+    $video->chapters->each(function ($chapter) use (&$courses) {
         $courses[] = $chapter->course_id;
     });
 
@@ -30,6 +29,7 @@ Route::get('y', function(){
 
     $x = (new VimeoHandler)->ensureProjectExists($video->course);
     dd($x);
+
     // $p = "/users/210982378/projects/18512233";
     // dd(str($p)->afterLast('/')->toString());
     return 'y;';
