@@ -20,7 +20,7 @@ use Aws\Credentials\Credentials;
 Route::get('/p', function () {
     $applicationKeyId = env('BACKBLAZE_KEY_ID');
     $applicationKey = env('BACKBLAZE_APP_KEY');
-    $bucketName = 'hello01';
+    $bucketName = 'Mastering Nova Version 1';
     $region = 'us-east-005'; // Replace with your B2 region code
 
     $credentials = new Credentials($applicationKeyId, $applicationKey);
