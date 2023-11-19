@@ -39,7 +39,7 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
-            'url' => env('APP_URL').'/storage',
+            'url' => env('APP_URL') . '/storage',
             'visibility' => 'public',
             'throw' => false,
         ],
@@ -56,13 +56,13 @@ return [
             'throw' => false,
         ],
 
-        'b2' => [
-            'driver' => 'b2',
+        'backblaze' => [
+            'driver' => 's3',
+            'region' => env('us-east-005'),
+            'url' => env('BACKBLAZE_ENDPOINT'),
             'key' => env('BACKBLAZE_KEY_ID'),
-            'accountId' => env('BACKBLAZE_KEY_ID'),
-            'applicationKey' => env('BACKBLAZE_APP_KEY'),
-            'bucketName' => env('BACKBLAZE_BUCKET_NAME'),
-            'bucketId' => env('BACKBLAZE_BUCKET_ID'), //optional
+            'secret' => env('BACKBLAZE_APP_KEY'),
+            'bucket' => env('BACKBLAZE_BUCKET_NAME'),
         ],
 
     ],

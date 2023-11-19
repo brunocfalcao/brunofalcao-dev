@@ -626,7 +626,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "4cdeccfd29035cc028a3eabd267846b6b76a0cdf"
+                "reference": "bad974850510aa2c39187ea3672d216002b43367"
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -769,7 +769,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "869d38e27049c18ff851aa860b9be6efaf809ef5"
+                "reference": "ac8b92e1ea05aa0aa0ad0033b80aca204d5fdba2"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -948,7 +948,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "44a44b52488931b8f75db60b729718abb6285a39"
+                "reference": "09c7c63cae0ac4f535ad477f3cd8d37a9930d862"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1055,13 +1055,13 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "f71d04fcb5b1c9a0d9e2888a9193356d4692aa89"
+                "reference": "7d5e53d7c3a981ccb29168dc58620393541f148f"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
                 "brunocfalcao/eduka-abstracts": "dev-master",
                 "illuminate/contracts": "^10.0",
-                "laravel/nova": "4.29.2",
+                "laravel/nova": "^4.0",
                 "league/flysystem": "^3.19",
                 "league/flysystem-aws-s3-v3": "*",
                 "mikey179/vfsstream": "*",
@@ -1108,7 +1108,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "faa542c27119c7962e1d59b889f6fe339b3b0ac9"
+                "reference": "f37003173d17bd80ce5f6da9393872897869b12d"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
