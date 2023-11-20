@@ -1,0 +1,16 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-33406144.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/images/logo.png": {
+    "file": "assets/logo-7b6da44d.png",
+    "src": "resources/images/logo.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-bae622da.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
