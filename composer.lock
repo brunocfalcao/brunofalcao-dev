@@ -4,11 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-<<<<<<< Updated upstream
-    "content-hash": "5daed4b4669af14e0eda2e83360bf37d",
-=======
-    "content-hash": "6dfcf315ea142f6eb0b6df224d66c907",
->>>>>>> Stashed changes
+    "content-hash": "627d438c3fa4eda53bd13a65aa8642ec",
     "packages": [
         {
             "name": "andreiio/blade-iconoir",
@@ -193,16 +189,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.287.0",
+            "version": "3.287.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "06978bfc63111fccd78b364238bf214b4ade8d18"
+                "reference": "efe7b6e370cf12af6c2ee9503aa2aba61350ed03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/06978bfc63111fccd78b364238bf214b4ade8d18",
-                "reference": "06978bfc63111fccd78b364238bf214b4ade8d18",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/efe7b6e370cf12af6c2ee9503aa2aba61350ed03",
+                "reference": "efe7b6e370cf12af6c2ee9503aa2aba61350ed03",
                 "shasum": ""
             },
             "require": {
@@ -282,9 +278,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.287.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.287.1"
             },
-            "time": "2023-11-17T20:03:36+00:00"
+            "time": "2023-11-20T20:12:54+00:00"
         },
         {
             "name": "blade-ui-kit/blade-icons",
@@ -621,11 +617,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-<<<<<<< Updated upstream
                 "reference": "bad974850510aa2c39187ea3672d216002b43367"
-=======
-                "reference": "23fb97f39d6d9729df15200f94396e90ae6d2a28"
->>>>>>> Stashed changes
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -677,7 +669,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-nova-advanced-ui",
-                "reference": "05a1038c51be744d93142a9da43ce7d075e4ccb8"
+                "reference": "edcf9ff4db0798f0bec3c524b0641311eaa5cfd4"
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -767,7 +759,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "ac8b92e1ea05aa0aa0ad0033b80aca204d5fdba2"
+                "reference": "3fe5395adfd79b3863ed1a93bbcff560d69c6eff"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -946,7 +938,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "09c7c63cae0ac4f535ad477f3cd8d37a9930d862"
+                "reference": "1bde742aa95c6cca9c885cd8b1fc92c6a22d430a"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -995,7 +987,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "a8903dbfc22de6309c155b0fac9b30e82970033b"
+                "reference": "e9fee9bc79a39a91c671616b3695f25214284d02"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -1053,15 +1045,12 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-<<<<<<< Updated upstream
-                "reference": "7d5e53d7c3a981ccb29168dc58620393541f148f"
-=======
-                "reference": "fbd470ddc3c10ca1d3e77e4e6b15fc842236d490"
->>>>>>> Stashed changes
+                "reference": "578518fcf2ebb19ed78bb6184004f4c8b46ed641"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
                 "brunocfalcao/eduka-abstracts": "dev-master",
+                "brunocfalcao/laravel-nova-helpers": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "laravel/nova": "^4.0",
                 "league/flysystem": "^3.19",
@@ -1212,15 +1201,12 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-<<<<<<< Updated upstream
-                "reference": "22d28d25da7364fe182f1f16713803a49f5b462c"
-=======
                 "reference": "907f2e46797f15f422781bd7509f56634e080ab2"
->>>>>>> Stashed changes
             },
             "require": {
                 "illuminate/contracts": "^10.0",
-                "php": "^8.1"
+                "php": "^8.1",
+                "symfony/dom-crawler": "^6.3"
             },
             "type": "library",
             "extra": {
@@ -1250,6 +1236,55 @@
             ],
             "description": "Laravel Helpers - Swiss army knife to complement your web apps",
             "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-helpers",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "brunocfalcao/laravel-nova-helpers",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-nova-helpers",
+                "reference": "9daea7a1cb6e2c806ea577768d156eb62dd4ddb6"
+            },
+            "require": {
+                "brunocfalcao/laravel-helpers": "dev-master",
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Brunocfalcao\\LaravelNovaHelpers\\LaravelNovaHelpersServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Brunocfalcao\\LaravelNovaHelpers\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel Nova Helpers - Swiss army knife to complement your Laravel Nova Admin",
+            "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-nova-helpers",
             "keywords": [
                 "brunocfalcao"
             ],
@@ -2899,11 +2934,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-<<<<<<< Updated upstream
-                "reference": "ba46acbbeed251f925c169e05d0bdd94ee667ed6"
-=======
                 "reference": "6e4ecc7e2e67ba36eca325ff49adc55e93a72eb7"
->>>>>>> Stashed changes
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -2920,11 +2951,12 @@
                 "ext-tokenizer": "*",
                 "fruitcake/php-cors": "^1.2",
                 "guzzlehttp/uri-template": "^1.0",
+                "laravel/prompts": "^0.1.9",
                 "laravel/serializable-closure": "^1.3",
                 "league/commonmark": "^2.2.1",
                 "league/flysystem": "^3.8.0",
                 "monolog/monolog": "^3.0",
-                "nesbot/carbon": "^2.62.1",
+                "nesbot/carbon": "^2.67",
                 "nunomaduro/termwind": "^1.13",
                 "php": "^8.1",
                 "psr/container": "^1.1.1|^2.0.1",
@@ -2934,7 +2966,7 @@
                 "symfony/console": "^6.2",
                 "symfony/error-handler": "^6.2",
                 "symfony/finder": "^6.2",
-                "symfony/http-foundation": "^6.2",
+                "symfony/http-foundation": "^6.3",
                 "symfony/http-kernel": "^6.2",
                 "symfony/mailer": "^6.2",
                 "symfony/mime": "^6.2",
@@ -3001,14 +3033,15 @@
                 "league/flysystem-read-only": "^3.3",
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^8.4",
+                "nyholm/psr7": "^1.2",
+                "orchestra/testbench-core": "^8.15.1",
                 "pda/pheanstalk": "^4.0",
-                "phpstan/phpdoc-parser": "^1.15",
                 "phpstan/phpstan": "^1.4.7",
                 "phpunit/phpunit": "^10.0.7",
                 "predis/predis": "^2.0.2",
                 "symfony/cache": "^6.2",
-                "symfony/http-client": "^6.2.4"
+                "symfony/http-client": "^6.2.4",
+                "symfony/psr-http-message-bridge": "^2.0"
             },
             "suggest": {
                 "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
@@ -3103,19 +3136,11 @@
         },
         {
             "name": "laravel/nova",
-<<<<<<< Updated upstream
-            "version": "4.29.2",
-            "dist": {
-                "type": "path",
-                "url": "packages/laravel/nova",
-                "reference": "b5b9a9e06ad213112d693883dab1565433c2fb27"
-=======
             "version": "4.31.3",
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/nova",
                 "reference": "f3ecfc18f9466a217e1b0ff61bb21433e03ed03c"
->>>>>>> Stashed changes
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -3228,8 +3253,6 @@
                 "symlink": true,
                 "relative": true
             }
-<<<<<<< Updated upstream
-=======
         },
         {
             "name": "laravel/prompts",
@@ -3287,7 +3310,6 @@
                 "source": "https://github.com/laravel/prompts/tree/v0.1.13"
             },
             "time": "2023-10-27T13:53:59+00:00"
->>>>>>> Stashed changes
         },
         {
             "name": "laravel/serializable-closure",
@@ -3943,6 +3965,73 @@
                 }
             ],
             "time": "2023-05-20T18:16:31+00:00"
+        },
+        {
+            "name": "masterminds/html5",
+            "version": "2.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Masterminds/html5-php.git",
+                "reference": "f47dcf3c70c584de14f21143c55d9939631bc6cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Masterminds/html5-php/zipball/f47dcf3c70c584de14f21143c55d9939631bc6cf",
+                "reference": "f47dcf3c70c584de14f21143c55d9939631bc6cf",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7.21 || ^6 || ^7 || ^8"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Masterminds\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Butcher",
+                    "email": "technosophos@gmail.com"
+                },
+                {
+                    "name": "Matt Farina",
+                    "email": "matt@mattfarina.com"
+                },
+                {
+                    "name": "Asmir Mustafic",
+                    "email": "goetas@gmail.com"
+                }
+            ],
+            "description": "An HTML5 parser and serializer.",
+            "homepage": "http://masterminds.github.io/html5-php",
+            "keywords": [
+                "HTML5",
+                "dom",
+                "html",
+                "parser",
+                "querypath",
+                "serializer",
+                "xml"
+            ],
+            "support": {
+                "issues": "https://github.com/Masterminds/html5-php/issues",
+                "source": "https://github.com/Masterminds/html5-php/tree/2.8.1"
+            },
+            "time": "2023-05-10T11:58:31+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -4804,16 +4893,16 @@
         },
         {
             "name": "openspout/openspout",
-            "version": "v4.19.0",
+            "version": "v4.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/openspout/openspout.git",
-                "reference": "b2d9a007eff4cbdf0a3befe63d696c365ad1abc0"
+                "reference": "74c9e23ec512856f326fea96503646660919b8f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/openspout/openspout/zipball/b2d9a007eff4cbdf0a3befe63d696c365ad1abc0",
-                "reference": "b2d9a007eff4cbdf0a3befe63d696c365ad1abc0",
+                "url": "https://api.github.com/repos/openspout/openspout/zipball/74c9e23ec512856f326fea96503646660919b8f6",
+                "reference": "74c9e23ec512856f326fea96503646660919b8f6",
                 "shasum": ""
             },
             "require": {
@@ -4827,13 +4916,13 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "friendsofphp/php-cs-fixer": "^3.35.1",
-                "infection/infection": "^0.27.6",
+                "friendsofphp/php-cs-fixer": "^3.38.2",
+                "infection/infection": "^0.27.8",
                 "phpbench/phpbench": "^1.2.14",
-                "phpstan/phpstan": "^1.10.39",
+                "phpstan/phpstan": "^1.10.43",
                 "phpstan/phpstan-phpunit": "^1.3.15",
-                "phpstan/phpstan-strict-rules": "^1.5.1",
-                "phpunit/phpunit": "^10.4.1"
+                "phpstan/phpstan-strict-rules": "^1.5.2",
+                "phpunit/phpunit": "^10.4.2"
             },
             "suggest": {
                 "ext-iconv": "To handle non UTF-8 CSV files (if \"php-mbstring\" is not already installed or is too limited)",
@@ -4881,7 +4970,7 @@
             ],
             "support": {
                 "issues": "https://github.com/openspout/openspout/issues",
-                "source": "https://github.com/openspout/openspout/tree/v4.19.0"
+                "source": "https://github.com/openspout/openspout/tree/v4.20.0"
             },
             "funding": [
                 {
@@ -4893,7 +4982,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-19T11:52:22+00:00"
+            "time": "2023-11-20T10:10:28+00:00"
         },
         {
             "name": "owenvoke/blade-fontawesome",
@@ -8502,6 +8591,73 @@
             "time": "2023-05-23T14:45:45+00:00"
         },
         {
+            "name": "symfony/dom-crawler",
+            "version": "v6.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "3fdd2a3d5fdc363b2e8dbf817f9726a4d013cbd1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/3fdd2a3d5fdc363b2e8dbf817f9726a4d013cbd1",
+                "reference": "3fdd2a3d5fdc363b2e8dbf817f9726a4d013cbd1",
+                "shasum": ""
+            },
+            "require": {
+                "masterminds/html5": "^2.6",
+                "php": ">=8.1",
+                "symfony/polyfill-ctype": "~1.8",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "^5.4|^6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Eases DOM navigation for HTML and XML documents",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/dom-crawler/tree/v6.3.4"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-08-01T07:43:40+00:00"
+        },
+        {
             "name": "symfony/error-handler",
             "version": "v6.3.5",
             "source": {
@@ -11057,16 +11213,16 @@
         },
         {
             "name": "theseer/tokenizer",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e"
+                "reference": "b2ad5003ca10d4ee50a12da31de12a5774ba6b96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/34a41e998c2183e22995f158c581e7b5e755ab9e",
-                "reference": "34a41e998c2183e22995f158c581e7b5e755ab9e",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/b2ad5003ca10d4ee50a12da31de12a5774ba6b96",
+                "reference": "b2ad5003ca10d4ee50a12da31de12a5774ba6b96",
                 "shasum": ""
             },
             "require": {
@@ -11095,7 +11251,7 @@
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "support": {
                 "issues": "https://github.com/theseer/tokenizer/issues",
-                "source": "https://github.com/theseer/tokenizer/tree/1.2.1"
+                "source": "https://github.com/theseer/tokenizer/tree/1.2.2"
             },
             "funding": [
                 {
@@ -11103,7 +11259,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-07-28T10:34:58+00:00"
+            "time": "2023-11-20T00:12:19+00:00"
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -12160,5 +12316,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
