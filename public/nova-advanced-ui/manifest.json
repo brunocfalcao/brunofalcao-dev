@@ -4,10 +4,13 @@
     "isEntry": true,
     "src": "resources/css/app.css"
   },
+<<<<<<< Updated upstream
   "resources/images/logo.png": {
     "file": "assets/logo-7b6da44d.png",
     "src": "resources/images/logo.png"
   },
+=======
+>>>>>>> Stashed changes
   "resources/js/app.js": {
     "file": "assets/app-bae622da.js",
     "isEntry": true,

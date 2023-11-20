@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< Updated upstream
     "content-hash": "5daed4b4669af14e0eda2e83360bf37d",
+=======
+    "content-hash": "6dfcf315ea142f6eb0b6df224d66c907",
+>>>>>>> Stashed changes
     "packages": [
         {
             "name": "andreiio/blade-iconoir",
@@ -574,28 +578,20 @@
         {
             "name": "brunocfalcao/cerebrus",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/cerebrus.git",
-                "reference": "b49f4c7d885868d5a4c7f3b2f368d12455cd1af0"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/cerebrus/zipball/b49f4c7d885868d5a4c7f3b2f368d12455cd1af0",
-                "reference": "b49f4c7d885868d5a4c7f3b2f368d12455cd1af0",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/cerebrus",
+                "reference": "b49f4c7d885868d5a4c7f3b2f368d12455cd1af0"
             },
             "require": {
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Brunocfalcao\\Cerebrus\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -614,11 +610,10 @@
                 "php",
                 "session"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/cerebrus/issues",
-                "source": "https://github.com/brunocfalcao/cerebrus/tree/master"
-            },
-            "time": "2023-11-12T23:45:17+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/course-mastering-nova",
@@ -626,7 +621,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
+<<<<<<< Updated upstream
                 "reference": "bad974850510aa2c39187ea3672d216002b43367"
+=======
+                "reference": "23fb97f39d6d9729df15200f94396e90ae6d2a28"
+>>>>>>> Stashed changes
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -675,16 +674,10 @@
         {
             "name": "brunocfalcao/course-nova-advanced-ui",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/course-nova-advanced-ui.git",
-                "reference": "05a1038c51be744d93142a9da43ce7d075e4ccb8"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/course-nova-advanced-ui/zipball/05a1038c51be744d93142a9da43ce7d075e4ccb8",
-                "reference": "05a1038c51be744d93142a9da43ce7d075e4ccb8",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/eduka/course-nova-advanced-ui",
+                "reference": "05a1038c51be744d93142a9da43ce7d075e4ccb8"
             },
             "require": {
                 "andreiio/blade-iconoir": "^2.0",
@@ -694,16 +687,22 @@
                 "owenvoke/blade-fontawesome": "^2.1",
                 "php": "^8.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "NovaAdvancedUI\\": "src/",
-                    "NovaAdvancedUI\\Database\\Seeders\\": "database/seeders/",
-                    "NovaAdvancedUI\\Database\\Factories\\": "database/factories/"
+                    "NovaAdvancedUI\\Database\\Factories\\": "database/factories/",
+                    "NovaAdvancedUI\\Database\\Seeders\\": "database/seeders/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "scripts": {
+                "post-update-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ],
+                "post-require-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -719,11 +718,10 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/course-nova-advanced-ui/issues",
-                "source": "https://github.com/brunocfalcao/course-nova-advanced-ui/tree/master"
-            },
-            "time": "2023-11-17T18:10:21+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "brunocfalcao/eduka-abstracts",
@@ -1055,7 +1053,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
+<<<<<<< Updated upstream
                 "reference": "7d5e53d7c3a981ccb29168dc58620393541f148f"
+=======
+                "reference": "fbd470ddc3c10ca1d3e77e4e6b15fc842236d490"
+>>>>>>> Stashed changes
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1210,7 +1212,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
+<<<<<<< Updated upstream
                 "reference": "22d28d25da7364fe182f1f16713803a49f5b462c"
+=======
+                "reference": "907f2e46797f15f422781bd7509f56634e080ab2"
+>>>>>>> Stashed changes
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -1227,7 +1233,10 @@
             "autoload": {
                 "psr-4": {
                     "Brunocfalcao\\LaravelHelpers\\": "src/"
-                }
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
             },
             "license": [
                 "MIT"
@@ -1252,23 +1261,16 @@
         {
             "name": "brunocfalcao/laravel-zepto-mail-api-driver",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver.git",
-                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/brunocfalcao/laravel-zepto-mail-api-driver/zipball/3a420bd4eafc63ff060eb9c6350a6d53027f0a22",
-                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22",
-                "shasum": ""
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-zepto-mail-api-driver",
+                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "pestphp/pest": "^2.24",
                 "php": "^8.1"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1282,7 +1284,11 @@
                     "Brunocfalcao\\ZeptoMailApiDriver\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Brunocfalcao\\ZeptoMailApiDriver\\Tests\\": "tests/"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1298,11 +1304,10 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "support": {
-                "issues": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver/issues",
-                "source": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver/tree/master"
-            },
-            "time": "2023-11-10T20:00:41+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "dflydev/dot-access-data",
@@ -2894,7 +2899,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
+<<<<<<< Updated upstream
                 "reference": "ba46acbbeed251f925c169e05d0bdd94ee667ed6"
+=======
+                "reference": "6e4ecc7e2e67ba36eca325ff49adc55e93a72eb7"
+>>>>>>> Stashed changes
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -3094,11 +3103,19 @@
         },
         {
             "name": "laravel/nova",
+<<<<<<< Updated upstream
             "version": "4.29.2",
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/nova",
                 "reference": "b5b9a9e06ad213112d693883dab1565433c2fb27"
+=======
+            "version": "4.31.3",
+            "dist": {
+                "type": "path",
+                "url": "packages/laravel/nova",
+                "reference": "f3ecfc18f9466a217e1b0ff61bb21433e03ed03c"
+>>>>>>> Stashed changes
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -3211,6 +3228,66 @@
                 "symlink": true,
                 "relative": true
             }
+<<<<<<< Updated upstream
+=======
+        },
+        {
+            "name": "laravel/prompts",
+            "version": "v0.1.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/prompts.git",
+                "reference": "e1379d8ead15edd6cc4369c22274345982edc95a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/e1379d8ead15edd6cc4369c22274345982edc95a",
+                "reference": "e1379d8ead15edd6cc4369c22274345982edc95a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "illuminate/collections": "^10.0|^11.0",
+                "php": "^8.1",
+                "symfony/console": "^6.2|^7.0"
+            },
+            "conflict": {
+                "illuminate/console": ">=10.17.0 <10.25.0",
+                "laravel/framework": ">=10.17.0 <10.25.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.5",
+                "pestphp/pest": "^2.3",
+                "phpstan/phpstan": "^1.10",
+                "phpstan/phpstan-mockery": "^1.1"
+            },
+            "suggest": {
+                "ext-pcntl": "Required for the spinner to be animated."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Laravel\\Prompts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/prompts/issues",
+                "source": "https://github.com/laravel/prompts/tree/v0.1.13"
+            },
+            "time": "2023-10-27T13:53:59+00:00"
+>>>>>>> Stashed changes
         },
         {
             "name": "laravel/serializable-closure",
