@@ -62,6 +62,26 @@ return [
      *   ],
      */
     'courses' => [
+
+        // E.g.: brunocfalcao/course-mastering-nova. Array key.
+        'brunocfalcao/course-mastering-nova' => [
+
+            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
+            'seeder-class' => 'MasteringNova\Database\Seeders\MasteringNovaCourseSeeder',
+
+            // E.g.: MasteringNova\MasteringNovaServiceProvider
+            'provider-class' => 'MasteringNova\MasteringNovaServiceProvider',
+        ],
+
+        // E.g.: brunocfalcao/course-mastering-nova. Array key.
+        'brunocfalcao/course-nova-advanced-ui' => [
+
+            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
+            'seeder-class' => 'NovaAdvancedUI\Database\Seeders\NovaAdvancedUICourseSeeder',
+
+            // E.g.: MasteringNova\MasteringNovaServiceProvider
+            'provider-class' => 'NovaAdvancedUI\NovaAdvancedUIServiceProvider',
+        ],
     ],
 
     'backend' => [
@@ -90,8 +110,11 @@ return [
      * e.g.: course-mastering-nova
      */
     'assets-transfer-vendors' => [
+        'course-mastering-nova',
+        'dev'
     ],
 
     'currency' => env('EDUKA_CURRENCY', 'EUR'),
     'currency_symbol' => env('EDUKA_CURRENCY_SYMBOL', '€'),
+    'skip_course_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false)
 ];
