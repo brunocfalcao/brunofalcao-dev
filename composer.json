@@ -39,6 +39,7 @@
         "aws/aws-sdk-php": "^3.286",
         "brunocfalcao/course-mastering-nova": "dev-master",
         "brunocfalcao/course-nova-advanced-ui": "dev-master",
+        "fakerphp/faker": "^1.23",
         "guzzlehttp/guzzle": "^7.5",
         "laravel/framework": "^10.8",
         "spatie/laravel-ignition": "^2.0"

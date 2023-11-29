@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c762299cec7bb58da62b220cd3249092",
+    "content-hash": "b96a3d88f45b70a3b81aa27ffc5d2806",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -483,6 +483,7 @@
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
                 "brunocfalcao/eduka-payments": "dev-master",
+                "fakerphp/faker": "^1.23",
                 "php": "^8.0"
             },
             "type": "library",
@@ -527,11 +528,12 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-nova-advanced-ui",
-                "reference": "e0e56ab07e9d24f28ab7b70c5c8bff673eee8fec"
+                "reference": "fe2148ae0729c885969e34dee04d11cc814d883b"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
                 "brunocfalcao/eduka-payments": "dev-master",
+                "fakerphp/faker": "^1.23",
                 "php": "^8.0"
             },
             "type": "library",
@@ -747,7 +749,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "c240f7c669d76bd38b4fd4410bd8c24ad9ba0565"
+                "reference": "c5c6199ded80ee2e4c916746c76d08c3c4b9038e"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -854,7 +856,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "ac1a77ad1924fef52dce83a941c8faae7efce0c0"
+                "reference": "d7f09c290d9d26670224959157935ccc62edc9a7"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1868,6 +1870,74 @@
                 }
             ],
             "time": "2023-10-06T06:47:41+00:00"
+        },
+        {
+            "name": "fakerphp/faker",
+            "version": "v1.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FakerPHP/Faker.git",
+                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "reference": "e3daa170d00fde61ea7719ef47bb09bb8f1d9b01",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "psr/container": "^1.0 || ^2.0",
+                "symfony/deprecation-contracts": "^2.2 || ^3.0"
+            },
+            "conflict": {
+                "fzaninotto/faker": "*"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4.1",
+                "doctrine/persistence": "^1.3 || ^2.0",
+                "ext-intl": "*",
+                "phpunit/phpunit": "^9.5.26",
+                "symfony/phpunit-bridge": "^5.4.16"
+            },
+            "suggest": {
+                "doctrine/orm": "Required to use Faker\\ORM\\Doctrine",
+                "ext-curl": "Required by Faker\\Provider\\Image to download images.",
+                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
+                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
+                "ext-mbstring": "Required for multibyte Unicode string functionality."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "v1.21-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "support": {
+                "issues": "https://github.com/FakerPHP/Faker/issues",
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.23.0"
+            },
+            "time": "2023-06-12T08:44:38+00:00"
         },
         {
             "name": "fidry/cpu-core-counter",
@@ -11859,7 +11929,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "brunocfalcao/course-mastering-nova": 20
+        "brunocfalcao/course-mastering-nova": 20,
+        "brunocfalcao/course-nova-advanced-ui": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
