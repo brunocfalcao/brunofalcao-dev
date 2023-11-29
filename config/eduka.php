@@ -18,7 +18,7 @@ return [
      * For instance, if we want to change the eduka database structure in the
      * migration files, we need to have this parameter true.
      */
-    'skip_course_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false),
+    'skip_domain_detection' => env('EDUKA_SKIP_DOMAIN_DETECTION', false),
 
     'mail' => [
 
@@ -73,7 +73,6 @@ return [
             'provider-class' => 'MasteringNova\MasteringNovaServiceProvider',
         ],
 
-        // E.g.: brunocfalcao/course-mastering-nova. Array key.
         'brunocfalcao/course-nova-advanced-ui' => [
 
             // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
@@ -111,10 +110,10 @@ return [
      */
     'assets-transfer-vendors' => [
         'course-mastering-nova',
-        'dev'
+        'dev',
     ],
 
     'currency' => env('EDUKA_CURRENCY', 'EUR'),
     'currency_symbol' => env('EDUKA_CURRENCY_SYMBOL', '€'),
-    'skip_course_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false)
+    'skip_domain_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false),
 ];
