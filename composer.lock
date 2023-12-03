@@ -478,7 +478,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "b8b9f6c0683365a358546b5ec49b886f611edb37"
+                "reference": "8c23ceb8df0ca7f3d7c924ca990d8cb55eab6a5c"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -528,7 +528,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-nova-advanced-ui",
-                "reference": "7ce62f1db807d776b0c5ba1a433fa676ede54f6d"
+                "reference": "96ec9e3427904a3277c3d834c80ffd7399c177e9"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -616,7 +616,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "200dff8ce6a0576a89a89f435b8912263fcb83c4"
+                "reference": "5a2364fcad362f889ac3422a6890760d7de6b7b4"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -749,7 +749,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "4b32992e9611d938a821573760387c99a004095d"
+                "reference": "4cfbd30f52e7dce216fa6c194e404bd2c5568474"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -856,7 +856,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "582995918210ea906863eb3a78f82eda228cfa79"
+                "reference": "368cd54c461ac150741e5448e78a1bc066b5b160"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -870,6 +870,7 @@
                 "mikey179/vfsstream": "*",
                 "php": "^8.0",
                 "psr/http-message-implementation": "*",
+                "titasgailius/search-relations": "^2.0",
                 "vimeo/vimeo-api": "^3.0"
             },
             "type": "library",
@@ -960,7 +961,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "76a3145e92bb5ac92f341825a2e36636085bfeef"
+                "reference": "086d4563a59cd947c17237bbc6b0266f60b6ad42"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1013,7 +1014,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "907f2e46797f15f422781bd7509f56634e080ab2"
+                "reference": "ae6bfe2804ea7c9378ba462652f10aeb0dbae12c"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -11008,6 +11009,46 @@
             "time": "2023-01-03T09:29:04+00:00"
         },
         {
+            "name": "titasgailius/search-relations",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TitasGailius/nova-search-relations.git",
+                "reference": "46b9e83ccc91feff22b19c285b8a29bf7ca44f6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TitasGailius/nova-search-relations/zipball/46b9e83ccc91feff22b19c285b8a29bf7ca44f6f",
+                "reference": "46b9e83ccc91feff22b19c285b8a29bf7ca44f6f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Titasgailius\\SearchRelations\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova tool.",
+            "keywords": [
+                "laravel",
+                "nova",
+                "relations",
+                "search"
+            ],
+            "support": {
+                "issues": "https://github.com/TitasGailius/nova-search-relations/issues",
+                "source": "https://github.com/TitasGailius/nova-search-relations/tree/2.0.1"
+            },
+            "time": "2021-07-16T15:55:13+00:00"
+        },
+        {
             "name": "vimeo/vimeo-api",
             "version": "3.0.10",
             "source": {
@@ -11498,16 +11539,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.40.0",
+            "version": "v3.40.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "27d2b3265b5d550ec411b4319967ae7cfddfb2e0"
+                "reference": "7002f09c9593f515625a9f9717b10c2ab64dd3d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/27d2b3265b5d550ec411b4319967ae7cfddfb2e0",
-                "reference": "27d2b3265b5d550ec411b4319967ae7cfddfb2e0",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7002f09c9593f515625a9f9717b10c2ab64dd3d5",
+                "reference": "7002f09c9593f515625a9f9717b10c2ab64dd3d5",
                 "shasum": ""
             },
             "require": {
@@ -11579,7 +11620,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.40.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.40.1"
             },
             "funding": [
                 {
@@ -11587,7 +11628,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-26T09:25:53+00:00"
+            "time": "2023-12-02T23:18:26+00:00"
         },
         {
             "name": "jubeki/laravel-code-style",
