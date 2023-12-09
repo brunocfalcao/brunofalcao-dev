@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2d586dda6604ba48ab7c685cdf354e95",
+    "content-hash": "3b53245cf10bc67707f2195ac82d561d",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.293.4",
+            "version": "3.293.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bb62581cb3796dd1866ace52ed0a750bd22936a8"
+                "reference": "3bf86ba8b9bbea2b298f89e6f5edc58de276690b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bb62581cb3796dd1866ace52ed0a750bd22936a8",
-                "reference": "bb62581cb3796dd1866ace52ed0a750bd22936a8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3bf86ba8b9bbea2b298f89e6f5edc58de276690b",
+                "reference": "3bf86ba8b9bbea2b298f89e6f5edc58de276690b",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.293.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.293.7"
             },
-            "time": "2023-12-05T19:07:19+00:00"
+            "time": "2023-12-08T19:11:21+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -478,7 +478,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "a9d089006230564efc7b83d816a22f761a155b42"
+                "reference": "32e108ce390718fa37b7f81de254bcdd4d12e1d7"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -529,7 +529,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-nova-advanced-ui",
-                "reference": "42eecf70132b82accdaf256c6396ea9f50d2fe27"
+                "reference": "3af414429509af01bca453a661f8a71e2e2fc2a4"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -617,7 +617,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "4631cb119847da463de96062829c0815a8b71205"
+                "reference": "836c870eef3d6cd4589cde728db42e4111e2ba5f"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -750,7 +750,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "fb8d4dc050f6a2a842fee946e3980b5bb6bd340b"
+                "reference": "fe3e43673181b417ba2d6f0c26c887b94862d9b9"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -857,13 +857,14 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "8660d72c72608e18298f81ff7c7ddb7bd3cd3314"
+                "reference": "bf4c16d9677094f3443ae210cc9d39c72b94f67e"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
                 "brunocfalcao/eduka-abstracts": "dev-master",
                 "brunocfalcao/eduka-services": "dev-master",
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
+                "hapheus/nova-single-value-card": "dev-main",
                 "illuminate/contracts": "^10.0",
                 "laravel/nova": "^4.0",
                 "league/flysystem": "^3.19",
@@ -2732,6 +2733,53 @@
             "time": "2023-12-03T19:50:20+00:00"
         },
         {
+            "name": "hapheus/nova-single-value-card",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hapheus/nova-single-value-card.git",
+                "reference": "af382dd2512206ce8a6a9ea96c4ebc8fefbc6acd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hapheus/nova-single-value-card/zipball/af382dd2512206ce8a6a9ea96c4ebc8fefbc6acd",
+                "reference": "af382dd2512206ce8a6a9ea96c4ebc8fefbc6acd",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/nova": "^4.0",
+                "php": "^7.3|^8.0|^8.1|^8.2"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Hapheus\\NovaSingleValueCard\\CardServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Hapheus\\NovaSingleValueCard\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A Laravel Nova card that displays a single value.",
+            "keywords": [
+                "laravel",
+                "nova"
+            ],
+            "support": {
+                "issues": "https://github.com/hapheus/nova-single-value-card/issues",
+                "source": "https://github.com/hapheus/nova-single-value-card/tree/main"
+            },
+            "time": "2023-02-12T08:37:01+00:00"
+        },
+        {
             "name": "inertiajs/inertia-laravel",
             "version": "v0.6.11",
             "source": {
@@ -3070,17 +3118,17 @@
         },
         {
             "name": "laravel/nova",
-            "version": "4.32.6",
+            "version": "4.32.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "eb3d46d7b798f54fb5ce41e23d6f0e2e912f18f8"
+                "reference": "a9272d00cddbdcfeeb4a51244c4274aec9c5aeeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-eb3d46d7b798f54fb5ce41e23d6f0e2e912f18f8-zip-a2d616.zip",
-                "reference": "eb3d46d7b798f54fb5ce41e23d6f0e2e912f18f8",
-                "shasum": "248288202316049033fad6268a0e6844135b882a"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-a9272d00cddbdcfeeb4a51244c4274aec9c5aeeb-zip-c906a8.zip",
+                "reference": "a9272d00cddbdcfeeb4a51244c4274aec9c5aeeb",
+                "shasum": "ac4a4c3256a77bfb2695ccd4dc53b76d67dea553"
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -3190,9 +3238,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v4.32.6"
+                "source": "https://github.com/laravel/nova/tree/v4.32.9"
             },
-            "time": "2023-11-25T17:43:14+00:00"
+            "time": "2023-12-06T21:28:31+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -4340,16 +4388,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.72.0",
+            "version": "2.72.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "a6885fcbad2ec4360b0e200ee0da7d9b7c90786b"
+                "reference": "2b3b3db0a2d0556a177392ff1a3bf5608fa09f78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/a6885fcbad2ec4360b0e200ee0da7d9b7c90786b",
-                "reference": "a6885fcbad2ec4360b0e200ee0da7d9b7c90786b",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2b3b3db0a2d0556a177392ff1a3bf5608fa09f78",
+                "reference": "2b3b3db0a2d0556a177392ff1a3bf5608fa09f78",
                 "shasum": ""
             },
             "require": {
@@ -4443,7 +4491,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-28T10:13:25+00:00"
+            "time": "2023-12-08T23:47:49+00:00"
         },
         {
             "name": "nette/schema",
@@ -11024,23 +11072,23 @@
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
-            "version": "2.2.6",
+            "version": "v2.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tijsverkoyen/CssToInlineStyles.git",
-                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c"
+                "reference": "83ee6f38df0a63106a9e4536e3060458b74ccedb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/c42125b83a4fa63b187fdf29f9c93cb7733da30c",
-                "reference": "c42125b83a4fa63b187fdf29f9c93cb7733da30c",
+                "url": "https://api.github.com/repos/tijsverkoyen/CssToInlineStyles/zipball/83ee6f38df0a63106a9e4536e3060458b74ccedb",
+                "reference": "83ee6f38df0a63106a9e4536e3060458b74ccedb",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "php": "^5.5 || ^7.0 || ^8.0",
-                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
+                "symfony/css-selector": "^2.7 || ^3.0 || ^4.0 || ^5.0 || ^6.0 || ^7.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.0 || ^7.5 || ^8.5.21 || ^9.5.10"
@@ -11071,9 +11119,9 @@
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "support": {
                 "issues": "https://github.com/tijsverkoyen/CssToInlineStyles/issues",
-                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/2.2.6"
+                "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
-            "time": "2023-01-03T09:29:04+00:00"
+            "time": "2023-12-08T13:03:43+00:00"
         },
         {
             "name": "titasgailius/search-relations",
@@ -11655,16 +11703,16 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.40.2",
+            "version": "v3.41.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "4344562a516b76afe8f2d64b2e52214c30d64ed8"
+                "reference": "7d8d18e19095a939b8a3b8046f57108feaad6134"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/4344562a516b76afe8f2d64b2e52214c30d64ed8",
-                "reference": "4344562a516b76afe8f2d64b2e52214c30d64ed8",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/7d8d18e19095a939b8a3b8046f57108feaad6134",
+                "reference": "7d8d18e19095a939b8a3b8046f57108feaad6134",
                 "shasum": ""
             },
             "require": {
@@ -11694,8 +11742,6 @@
                 "php-cs-fixer/accessible-object": "^1.1",
                 "php-cs-fixer/phpunit-constraint-isidenticalstring": "^1.4",
                 "php-cs-fixer/phpunit-constraint-xmlmatchesxsd": "^1.4",
-                "phpspec/prophecy": "^1.17",
-                "phpspec/prophecy-phpunit": "^2.0",
                 "phpunit/phpunit": "^9.6",
                 "symfony/phpunit-bridge": "^6.3.8 || ^7.0",
                 "symfony/yaml": "^5.4 || ^6.0 || ^7.0"
@@ -11736,7 +11782,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.40.2"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.41.0"
             },
             "funding": [
                 {
@@ -11744,7 +11790,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-03T09:21:33+00:00"
+            "time": "2023-12-08T22:54:33+00:00"
         },
         {
             "name": "jubeki/laravel-code-style",
@@ -11814,21 +11860,21 @@
         },
         {
             "name": "laracraft-tech/laravel-schema-rules",
-            "version": "v1.3.5",
+            "version": "v1.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laracraft-tech/laravel-schema-rules.git",
-                "reference": "4354e8315ae6c0e95641f06e3facd86ed4d8ebb0"
+                "reference": "f58b0c9d8b977fc8a0e6a378afe3a2ae92079926"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laracraft-tech/laravel-schema-rules/zipball/4354e8315ae6c0e95641f06e3facd86ed4d8ebb0",
-                "reference": "4354e8315ae6c0e95641f06e3facd86ed4d8ebb0",
+                "url": "https://api.github.com/repos/laracraft-tech/laravel-schema-rules/zipball/f58b0c9d8b977fc8a0e6a378afe3a2ae92079926",
+                "reference": "f58b0c9d8b977fc8a0e6a378afe3a2ae92079926",
                 "shasum": ""
             },
             "require": {
                 "brick/varexporter": "^0.3.8",
-                "doctrine/dbal": "^3.6",
+                "doctrine/dbal": "^3.6 || ^4.0",
                 "illuminate/contracts": "^8.0 || ^9.0 || ^10.0",
                 "illuminate/database": "^8.0 || ^9.0 || ^10.0",
                 "illuminate/support": "^8.0 || ^9.0 || ^10.0",
@@ -11877,9 +11923,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laracraft-tech/laravel-schema-rules/issues",
-                "source": "https://github.com/laracraft-tech/laravel-schema-rules/tree/v1.3.5"
+                "source": "https://github.com/laracraft-tech/laravel-schema-rules/tree/v1.3.6"
             },
-            "time": "2023-11-29T20:50:52+00:00"
+            "time": "2023-12-06T21:03:47+00:00"
         },
         {
             "name": "pestphp/pest-plugin-laravel",
@@ -12286,7 +12332,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-mastering-nova": 20,
-        "brunocfalcao/course-nova-advanced-ui": 20
+        "brunocfalcao/course-nova-advanced-ui": 20,
+        "hapheus/nova-single-value-card": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
