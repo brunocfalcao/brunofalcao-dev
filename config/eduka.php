@@ -113,7 +113,19 @@ return [
         'dev',
     ],
 
+    /**
+     * The Lemon Squeezy Webhook secret key to validate the
+     * request signature header. Please add it on your Lemon Squeezy
+     * webhook dashboard and copy it to your .ENV file.
+     */
+    'lemon_squeezy_secret_key' => env('LEMON_SQUEEZY_SECRET_KEY', ''),
+
     'currency' => env('EDUKA_CURRENCY', 'EUR'),
     'currency_symbol' => env('EDUKA_CURRENCY_SYMBOL', '€'),
+
+    /**
+     * Will load the eduka service providers without verifying
+     * if it's a frontend, backend, etc.
+     */
     'skip_domain_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false),
 ];
