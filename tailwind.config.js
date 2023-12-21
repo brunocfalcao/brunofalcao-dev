@@ -1,4 +1,5 @@
 const colors = require("tailwindcss/colors");
+import defaultTheme from 'tailwindcss/defaultTheme';
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -9,10 +10,18 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     theme: {
+        fontFamily: {
+            // @course-mastering-nova
+            'satoshi' : ['Satoshi-Regular'],
+            'satoshi-medium' : ['Satoshi-Medium']
+            // @end-course-mastering-nova
+        },
         extend: {
             colors: {
+                // @course-mastering-nova
                 "primary-black": "#101010",
                 "deep-soft-blue": "#272E44",
+                // @end-course-mastering-nova
                 ...colors,
             },
         },
