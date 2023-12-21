@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 148 148" width="511" height="511">
+	<title>Ellipse 76 (1)-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(148,148,-148,148,59.681,-59.681)">
+			<stop offset="0" stop-color="#00ffc4"/>
+			<stop offset="1" stop-color="#56d7fe"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<path id="Ellipse 76" class="s0" d="m74 148c-40.9 0-74-33.1-74-74 0-40.9 33.1-74 74-74 40.9 0 74 33.1 74 74 0 40.9-33.1 74-74 74z"/>
+</svg>

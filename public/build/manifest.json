@@ -1,0 +1,32 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-15e35af9.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/images/elipse.svg": {
+    "file": "assets/elipse-c60210e1.svg",
+    "src": "resources/images/elipse.svg"
+  },
+  "resources/images/prelaunched-footer-bg.png": {
+    "file": "assets/prelaunched-footer-bg-423bc383.png",
+    "src": "resources/images/prelaunched-footer-bg.png"
+  },
+  "resources/images/prelaunched-image.png": {
+    "file": "assets/prelaunched-image-93a95bd7.png",
+    "src": "resources/images/prelaunched-image.png"
+  },
+  "resources/images/sprial-arrow.png": {
+    "file": "assets/sprial-arrow-6b355849.png",
+    "src": "resources/images/sprial-arrow.png"
+  },
+  "resources/images/sprial-arrow.svg": {
+    "file": "assets/sprial-arrow-d4ceb714.svg",
+    "src": "resources/images/sprial-arrow.svg"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-5ecc1338.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
