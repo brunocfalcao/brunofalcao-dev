@@ -1,3 +1,9 @@
+@import url('../vendor/course-mastering-nova/css/course_mastering_nova.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .some-other-class {
     color: red;
 }
+
