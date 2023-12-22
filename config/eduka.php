@@ -108,9 +108,11 @@ return [
      *
      * e.g.: course-mastering-nova
      */
-    'assets-transfer-vendors' => [
-        'course-mastering-nova',
-        'dev',
+    'system' => [
+        'assets-transfer-vendors' => [
+            'course-mastering-nova',
+            // 'dev',
+        ],
     ],
 
     /**
