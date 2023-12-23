@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "316d8f9317f03884ce081dc9985a2dfc",
+    "content-hash": "1099b241678dcc7a4a65a2e2d09ba37f",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.294.5",
+            "version": "3.295.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "2e34d45e970c77775e4c298e08732d64b647c41c"
+                "reference": "326eb6c26e2be9d896c4aeb025e20980c06779af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2e34d45e970c77775e4c298e08732d64b647c41c",
-                "reference": "2e34d45e970c77775e4c298e08732d64b647c41c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/326eb6c26e2be9d896c4aeb025e20980c06779af",
+                "reference": "326eb6c26e2be9d896c4aeb025e20980c06779af",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.294.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.295.0"
             },
-            "time": "2023-12-21T19:10:21+00:00"
+            "time": "2023-12-22T19:07:47+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -473,12 +473,61 @@
             }
         },
         {
+            "name": "brunocfalcao/course-communication-effectiveness",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/eduka/course-communication-effectiveness",
+                "reference": "dd633f5c4d3d364cbda8197c814f8683d6adf8af"
+            },
+            "require": {
+                "brunocfalcao/eduka-nereus": "dev-master",
+                "brunocfalcao/eduka-payments": "dev-master",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CommunicationEffectiveness\\": "src/",
+                    "CommunicationEffectiveness\\Database\\Factories\\": "database/factories/",
+                    "CommunicationEffectiveness\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "scripts": {
+                "post-update-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ],
+                "post-require-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Communication effectiveness course",
+            "homepage": "https://github.com/brunocfalcao/course-communication-effectiveness",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "brunocfalcao/course-mastering-nova",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "c40d5320a1ca86fa9bd9fed5b0c5405d14eee440"
+                "reference": "fa9baa098ae424c0b25f6cd8dc386740131900e7"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -529,7 +578,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-nova-advanced-ui",
-                "reference": "e796601bf555f79919ef9a8ad7debabae2acc600"
+                "reference": "410708cf128bd2a30c338d512c41cae53dd054b7"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -579,7 +628,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "3659bb648e7ad343ba1938f9f166b11a5feb1b6a"
+                "reference": "82f30005c2cc01680fc36e3e89c429258d7718ae"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -799,7 +848,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "f7d1378c03d6821865497235fd528880742c5750"
+                "reference": "b1decd1154257ddf42853227c791a510bac2951f"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -963,7 +1012,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "ae241bbcbfaf5a5f684a582c8e03bd0e51cf5e26"
+                "reference": "84919e28cdda572387a149976f16234875a6686b"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -12035,7 +12084,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-mastering-nova": 20,
-        "brunocfalcao/course-nova-advanced-ui": 20
+        "brunocfalcao/course-nova-advanced-ui": 20,
+        "brunocfalcao/course-communication-effectiveness": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

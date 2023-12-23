@@ -81,6 +81,15 @@ return [
             // E.g.: MasteringNova\MasteringNovaServiceProvider
             'provider-class' => 'NovaAdvancedUI\NovaAdvancedUIServiceProvider',
         ],
+
+        'brunocfalcao/course-communication-effectiveness' => [
+
+            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
+            'seeder-class' => 'CommunicationEffectiveness\Database\Seeders\CommunicationEffectivenessCourseSeeder',
+
+            // E.g.: MasteringNova\MasteringNovaServiceProvider
+            'provider-class' => 'CommunicationEffectiveness\CommunicationEffectivenessServiceProvider',
+        ],
     ],
 
     'backend' => [
