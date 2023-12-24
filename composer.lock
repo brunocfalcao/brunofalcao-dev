@@ -478,7 +478,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-communication-effectiveness",
-                "reference": "dd633f5c4d3d364cbda8197c814f8683d6adf8af"
+                "reference": "88221cc092eb8cbcb3f9d771cef926db2977d1df"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -527,7 +527,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova",
-                "reference": "fa9baa098ae424c0b25f6cd8dc386740131900e7"
+                "reference": "3720e28a3ac1d118a3e71cae0b5bad3c19428ba3"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -628,7 +628,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "82f30005c2cc01680fc36e3e89c429258d7718ae"
+                "reference": "d1efabe27fd4ebb756644b2abcf410ed49a3414a"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -666,7 +666,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "0c7da22f33bb4d8e52f17841a6897148c24326e8"
+                "reference": "6f2f4ffbd3c1697dc8f9168b708308c386007588"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -848,7 +848,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "b1decd1154257ddf42853227c791a510bac2951f"
+                "reference": "8c88454a9cad44b5577baee9639bc1d42fc96c6d"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -968,6 +968,7 @@
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
                 "brunocfalcao/laravel-helpers": "dev-master",
+                "brunocfalcao/laravel-tokenizer": "dev-master",
                 "guzzlehttp/guzzle": "^7.0",
                 "illuminate/contracts": "^10.0",
                 "lemonsqueezy/laravel": "^0.2.1",
@@ -1196,6 +1197,53 @@
             "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-nova-helpers",
             "keywords": [
                 "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
+            "name": "brunocfalcao/laravel-tokenizer",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/brunocfalcao/laravel-tokenizer",
+                "reference": "3a9127de9f9b886d68a2eb16877585eb7b928993"
+            },
+            "require": {
+                "illuminate/contracts": "^10.0",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Brunocfalcao\\Tokenizer\\TokenizerServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Brunocfalcao\\Tokenizer\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel tokenizer - Token usage for web apps (create, burn, check, etc)",
+            "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-tokenizer",
+            "keywords": [
+                "brunocfalcao",
+                "eloquent",
+                "laravel"
             ],
             "transport-options": {
                 "symlink": true,
