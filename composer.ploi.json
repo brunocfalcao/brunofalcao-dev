@@ -16,9 +16,8 @@
     "require": {
         "php": "^8.1",
         "aws/aws-sdk-php": "^3.286",
-        "brunocfalcao/course-mastering-nova": "dev-master",
-        "brunocfalcao/course-nova-advanced-ui": "dev-master",
-        "brunocfalcao/course-communication-effectiveness": "dev-master",
+        "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
+        "brunocfalcao/course-mastering-nova-orion": "dev-master",
         "filp/whoops": "^2.15",
         "laravel/framework": "^10.8"
     },
