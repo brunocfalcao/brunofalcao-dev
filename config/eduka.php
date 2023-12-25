@@ -64,31 +64,13 @@ return [
     'courses' => [
 
         // E.g.: brunocfalcao/course-mastering-nova. Array key.
-        'brunocfalcao/course-mastering-nova' => [
+        'brunocfalcao/course-mastering-nova-silver-surfer' => [
 
             // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
-            'seeder-class' => 'MasteringNova\Database\Seeders\MasteringNovaCourseSeeder',
+            'seeder-class' => 'MasteringNovaSilverSurfer\Database\Seeders\MasteringNovaSilverSurferCourseSeeder',
 
             // E.g.: MasteringNova\MasteringNovaServiceProvider
-            'provider-class' => 'MasteringNova\MasteringNovaServiceProvider',
-        ],
-
-        'brunocfalcao/course-nova-advanced-ui' => [
-
-            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
-            'seeder-class' => 'NovaAdvancedUI\Database\Seeders\NovaAdvancedUICourseSeeder',
-
-            // E.g.: MasteringNova\MasteringNovaServiceProvider
-            'provider-class' => 'NovaAdvancedUI\NovaAdvancedUIServiceProvider',
-        ],
-
-        'brunocfalcao/course-communication-effectiveness' => [
-
-            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
-            'seeder-class' => 'CommunicationEffectiveness\Database\Seeders\CommunicationEffectivenessCourseSeeder',
-
-            // E.g.: MasteringNova\MasteringNovaServiceProvider
-            'provider-class' => 'CommunicationEffectiveness\CommunicationEffectivenessServiceProvider',
+            'provider-class' => 'MasteringNovaSilverSurfer\MasteringNovaSilverSurferServiceProvider',
         ],
     ],
 
