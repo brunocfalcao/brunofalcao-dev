@@ -72,6 +72,16 @@ return [
             // E.g.: MasteringNova\MasteringNovaServiceProvider
             'provider-class' => 'MasteringNovaSilverSurfer\MasteringNovaSilverSurferServiceProvider',
         ],
+
+        // E.g.: brunocfalcao/course-mastering-nova. Array key.
+        'brunocfalcao/course-mastering-nova-orion' => [
+
+            // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
+            'seeder-class' => 'MasteringNovaOrion\Database\Seeders\MasteringNovaOrionCourseSeeder',
+
+            // E.g.: MasteringNova\MasteringNovaServiceProvider
+            'provider-class' => 'MasteringNovaOrion\MasteringNovaOrionServiceProvider',
+        ],
     ],
 
     'backend' => [
