@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b543bcaf143676b383a557ef998a26b3",
+    "content-hash": "73a336bc5860a5da82587708ca8e7728",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -435,20 +435,28 @@
         {
             "name": "brunocfalcao/cerebrus",
             "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/brunocfalcao/cerebrus",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunocfalcao/cerebrus.git",
                 "reference": "bebaaf1ef9012ffd8a2cc7684ca8675b073d23f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunocfalcao/cerebrus/zipball/bebaaf1ef9012ffd8a2cc7684ca8675b073d23f3",
+                "reference": "bebaaf1ef9012ffd8a2cc7684ca8675b073d23f3",
+                "shasum": ""
             },
             "require": {
                 "php": "^8.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "Brunocfalcao\\Cerebrus\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -467,10 +475,11 @@
                 "php",
                 "session"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/brunocfalcao/cerebrus/issues",
+                "source": "https://github.com/brunocfalcao/cerebrus/tree/master"
+            },
+            "time": "2023-12-15T18:43:08+00:00"
         },
         {
             "name": "brunocfalcao/course-mastering-nova-silver-surfer",
@@ -478,7 +487,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "943689edc56c461d430cecb3cada7e8359c590d1"
+                "reference": "1b3e42b25ce66cec68eaceb063954cda4f17bc9b"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -515,12 +524,62 @@
             }
         },
         {
+            "name": "brunocfalcao/course-nova-advanced-ui",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/eduka/course-nova-advanced-ui",
+                "reference": "96ec9e3427904a3277c3d834c80ffd7399c177e9"
+            },
+            "require": {
+                "brunocfalcao/eduka-nereus": "dev-master",
+                "brunocfalcao/eduka-payments": "dev-master",
+                "fakerphp/faker": "^1.23",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NovaAdvancedUI\\": "src/",
+                    "NovaAdvancedUI\\Database\\Factories\\": "database/factories/",
+                    "NovaAdvancedUI\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "scripts": {
+                "post-update-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ],
+                "post-require-cmd": [
+                    "@php artisan eduka:publish-assets"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bruno Falcão",
+                    "email": "bruno.c.falcao@brunofalcao.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Nova Advanced UI - Laravel Nova advanced UI official course",
+            "homepage": "https://github.com/brunocfalcao/course-nova-advanced-ui",
+            "keywords": [
+                "brunocfalcao"
+            ],
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "brunocfalcao/eduka-abstracts",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "d1efabe27fd4ebb756644b2abcf410ed49a3414a"
+                "reference": "3659bb648e7ad343ba1938f9f166b11a5feb1b6a"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -558,7 +617,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "d161b65ba18f943cbc72e329f0f19b40730817b8"
+                "reference": "187e269391ca3f869818e47d359defab1eafbcd6"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -608,7 +667,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-dev",
-                "reference": "6d7462acc415c46a090a168778076af66c7a1555"
+                "reference": "1266f97e0c67a3d02090333b11ac129f38934a60"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -691,7 +750,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "033beeb9d8063b1f54c1ba83b3fe84ac3f6abd5a"
+                "reference": "4cfbd30f52e7dce216fa6c194e404bd2c5568474"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -740,7 +799,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "78433df05a716a4e3807c9bf46abde7f2c0c2f22"
+                "reference": "f7d1378c03d6821865497235fd528880742c5750"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -798,14 +857,13 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "da0ad80ba6f7cd46dbe63b4005e3ebd11e053070"
+                "reference": "368cd54c461ac150741e5448e78a1bc066b5b160"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
                 "brunocfalcao/eduka-abstracts": "dev-master",
                 "brunocfalcao/eduka-services": "dev-master",
                 "brunocfalcao/laravel-nova-helpers": "dev-master",
-                "hapheus/nova-single-value-card": "dev-main",
                 "illuminate/contracts": "^10.0",
                 "laravel/nova": "^4.0",
                 "league/flysystem": "^3.19",
@@ -813,7 +871,6 @@
                 "mikey179/vfsstream": "*",
                 "php": "^8.0",
                 "psr/http-message-implementation": "*",
-                "titasgailius/search-relations": "^2.0",
                 "vimeo/vimeo-api": "^3.0"
             },
             "type": "library",
@@ -855,12 +912,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "fc07c1fdc1d43bc4efe008cf4eb7c961fea4cac2"
+                "reference": "d468659521d5818cde44c7761867858f924be1a9"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
                 "brunocfalcao/laravel-helpers": "dev-master",
-                "brunocfalcao/laravel-tokenizer": "dev-master",
                 "guzzlehttp/guzzle": "^7.0",
                 "illuminate/contracts": "^10.0",
                 "lemonsqueezy/laravel": "^0.2.1",
@@ -905,7 +961,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "870694dd9dd24b4f230d33f99fb186bb7626964a"
+                "reference": "086d4563a59cd947c17237bbc6b0266f60b6ad42"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -1003,7 +1059,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "51d9b28d3de8946f265017ba68b76e80aebb46cd"
+                "reference": "ae6bfe2804ea7c9378ba462652f10aeb0dbae12c"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -1049,16 +1105,23 @@
         {
             "name": "brunocfalcao/laravel-nova-helpers",
             "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/brunocfalcao/laravel-nova-helpers",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunocfalcao/laravel-nova-helpers.git",
                 "reference": "95db4617160011afceb706562fc6e22da868b9ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunocfalcao/laravel-nova-helpers/zipball/95db4617160011afceb706562fc6e22da868b9ff",
+                "reference": "95db4617160011afceb706562fc6e22da868b9ff",
+                "shasum": ""
             },
             "require": {
                 "brunocfalcao/laravel-helpers": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1068,13 +1131,14 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Brunocfalcao\\LaravelNovaHelpers\\": "src/"
-                },
                 "files": [
                     "src/helpers.php"
-                ]
+                ],
+                "psr-4": {
+                    "Brunocfalcao\\LaravelNovaHelpers\\": "src/"
+                }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1090,71 +1154,32 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
-            "name": "brunocfalcao/laravel-tokenizer",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/brunocfalcao/laravel-tokenizer",
-                "reference": "cb8ed829667080b6768372132acff4bef0bb2542"
+            "support": {
+                "issues": "https://github.com/brunocfalcao/laravel-nova-helpers/issues",
+                "source": "https://github.com/brunocfalcao/laravel-nova-helpers/tree/master"
             },
-            "require": {
-                "illuminate/contracts": "^10.0",
-                "php": "^8.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Brunocfalcao\\Tokenizer\\TokenizerServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Brunocfalcao\\Tokenizer\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bruno Falcão",
-                    "email": "bruno.c.falcao@brunofalcao.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Laravel tokenizer - Token usage for web apps (create, burn, check, etc)",
-            "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-tokenizer",
-            "keywords": [
-                "brunocfalcao",
-                "eloquent",
-                "laravel"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2023-12-15T18:45:03+00:00"
         },
         {
             "name": "brunocfalcao/laravel-zepto-mail-api-driver",
             "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/brunocfalcao/laravel-zepto-mail-api-driver",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver.git",
                 "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brunocfalcao/laravel-zepto-mail-api-driver/zipball/3a420bd4eafc63ff060eb9c6350a6d53027f0a22",
+                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22",
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^10.0",
                 "pestphp/pest": "^2.24",
                 "php": "^8.1"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -1168,11 +1193,7 @@
                     "Brunocfalcao\\ZeptoMailApiDriver\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Brunocfalcao\\ZeptoMailApiDriver\\Tests\\": "tests/"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1188,10 +1209,11 @@
             "keywords": [
                 "brunocfalcao"
             ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver/issues",
+                "source": "https://github.com/brunocfalcao/laravel-zepto-mail-api-driver/tree/master"
+            },
+            "time": "2023-11-10T20:00:41+00:00"
         },
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -2722,53 +2744,6 @@
             "time": "2023-12-03T19:50:20+00:00"
         },
         {
-            "name": "hapheus/nova-single-value-card",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hapheus/nova-single-value-card.git",
-                "reference": "af382dd2512206ce8a6a9ea96c4ebc8fefbc6acd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hapheus/nova-single-value-card/zipball/af382dd2512206ce8a6a9ea96c4ebc8fefbc6acd",
-                "reference": "af382dd2512206ce8a6a9ea96c4ebc8fefbc6acd",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/nova": "^4.0",
-                "php": "^7.3|^8.0|^8.1|^8.2"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Hapheus\\NovaSingleValueCard\\CardServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Hapheus\\NovaSingleValueCard\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A Laravel Nova card that displays a single value.",
-            "keywords": [
-                "laravel",
-                "nova"
-            ],
-            "support": {
-                "issues": "https://github.com/hapheus/nova-single-value-card/issues",
-                "source": "https://github.com/hapheus/nova-single-value-card/tree/main"
-            },
-            "time": "2023-02-12T08:37:01+00:00"
-        },
-        {
             "name": "inertiajs/inertia-laravel",
             "version": "v0.6.11",
             "source": {
@@ -2905,7 +2880,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/laravel/framework",
-                "reference": "8e6e056935785727f9b369f4d4bcdd0ed6c6560f"
+                "reference": "ba46acbbeed251f925c169e05d0bdd94ee667ed6"
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
@@ -2922,12 +2897,11 @@
                 "ext-tokenizer": "*",
                 "fruitcake/php-cors": "^1.2",
                 "guzzlehttp/uri-template": "^1.0",
-                "laravel/prompts": "^0.1.9",
                 "laravel/serializable-closure": "^1.3",
                 "league/commonmark": "^2.2.1",
                 "league/flysystem": "^3.8.0",
                 "monolog/monolog": "^3.0",
-                "nesbot/carbon": "^2.67",
+                "nesbot/carbon": "^2.62.1",
                 "nunomaduro/termwind": "^1.13",
                 "php": "^8.1",
                 "psr/container": "^1.1.1|^2.0.1",
@@ -2937,7 +2911,7 @@
                 "symfony/console": "^6.2",
                 "symfony/error-handler": "^6.2",
                 "symfony/finder": "^6.2",
-                "symfony/http-foundation": "^6.4",
+                "symfony/http-foundation": "^6.2",
                 "symfony/http-kernel": "^6.2",
                 "symfony/mailer": "^6.2",
                 "symfony/mime": "^6.2",
@@ -2950,8 +2924,6 @@
                 "voku/portable-ascii": "^2.0"
             },
             "conflict": {
-                "carbonphp/carbon-doctrine-types": ">=3.0",
-                "doctrine/dbal": ">=4.0",
                 "tightenco/collect": "<5.5.33"
             },
             "provide": {
@@ -3006,15 +2978,14 @@
                 "league/flysystem-read-only": "^3.3",
                 "league/flysystem-sftp-v3": "^3.0",
                 "mockery/mockery": "^1.5.1",
-                "nyholm/psr7": "^1.2",
-                "orchestra/testbench-core": "^8.18",
+                "orchestra/testbench-core": "^8.4",
                 "pda/pheanstalk": "^4.0",
+                "phpstan/phpdoc-parser": "^1.15",
                 "phpstan/phpstan": "^1.4.7",
                 "phpunit/phpunit": "^10.0.7",
                 "predis/predis": "^2.0.2",
                 "symfony/cache": "^6.2",
-                "symfony/http-client": "^6.2.4",
-                "symfony/psr-http-message-bridge": "^2.0"
+                "symfony/http-client": "^6.2.4"
             },
             "suggest": {
                 "ably/ably-php": "Required to use the Ably broadcast driver (^1.0).",
@@ -3063,7 +3034,6 @@
                 "files": [
                     "src/Illuminate/Collections/helpers.php",
                     "src/Illuminate/Events/functions.php",
-                    "src/Illuminate/Filesystem/functions.php",
                     "src/Illuminate/Foundation/helpers.php",
                     "src/Illuminate/Support/helpers.php"
                 ],
@@ -3110,17 +3080,11 @@
         },
         {
             "name": "laravel/nova",
-            "version": "4.32.11",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:laravel/nova.git",
-                "reference": "d3587d9155095b391b4007daddb1d9541d5c1158"
-            },
+            "version": "4.29.2",
             "dist": {
-                "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-d3587d9155095b391b4007daddb1d9541d5c1158-zip-1acf6c.zip",
-                "reference": "d3587d9155095b391b4007daddb1d9541d5c1158",
-                "shasum": "823e555e08ac73e4484cf9ef5e9bcd52709050a4"
+                "type": "path",
+                "url": "packages/laravel/nova",
+                "reference": "b5b9a9e06ad213112d693883dab1565433c2fb27"
             },
             "require": {
                 "brick/money": "^0.5.0|^0.6.0|^0.7.0|^0.8.0",
@@ -3229,67 +3193,10 @@
                 "admin",
                 "laravel"
             ],
-            "support": {
-                "source": "https://github.com/laravel/nova/tree/v4.32.11"
-            },
-            "time": "2023-12-19T18:17:55+00:00"
-        },
-        {
-            "name": "laravel/prompts",
-            "version": "v0.1.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/prompts.git",
-                "reference": "e1379d8ead15edd6cc4369c22274345982edc95a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/e1379d8ead15edd6cc4369c22274345982edc95a",
-                "reference": "e1379d8ead15edd6cc4369c22274345982edc95a",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "illuminate/collections": "^10.0|^11.0",
-                "php": "^8.1",
-                "symfony/console": "^6.2|^7.0"
-            },
-            "conflict": {
-                "illuminate/console": ">=10.17.0 <10.25.0",
-                "laravel/framework": ">=10.17.0 <10.25.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.5",
-                "pestphp/pest": "^2.3",
-                "phpstan/phpstan": "^1.10",
-                "phpstan/phpstan-mockery": "^1.1"
-            },
-            "suggest": {
-                "ext-pcntl": "Required for the spinner to be animated."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-main": "0.1.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/helpers.php"
-                ],
-                "psr-4": {
-                    "Laravel\\Prompts\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "support": {
-                "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.13"
-            },
-            "time": "2023-10-27T13:53:59+00:00"
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
         },
         {
             "name": "laravel/serializable-closure",
@@ -10819,46 +10726,6 @@
             "time": "2023-12-08T13:03:43+00:00"
         },
         {
-            "name": "titasgailius/search-relations",
-            "version": "2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/TitasGailius/nova-search-relations.git",
-                "reference": "46b9e83ccc91feff22b19c285b8a29bf7ca44f6f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/TitasGailius/nova-search-relations/zipball/46b9e83ccc91feff22b19c285b8a29bf7ca44f6f",
-                "reference": "46b9e83ccc91feff22b19c285b8a29bf7ca44f6f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Titasgailius\\SearchRelations\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A Laravel Nova tool.",
-            "keywords": [
-                "laravel",
-                "nova",
-                "relations",
-                "search"
-            ],
-            "support": {
-                "issues": "https://github.com/TitasGailius/nova-search-relations/issues",
-                "source": "https://github.com/TitasGailius/nova-search-relations/tree/2.0.1"
-            },
-            "time": "2021-07-16T15:55:13+00:00"
-        },
-        {
             "name": "vimeo/vimeo-api",
             "version": "3.0.10",
             "source": {
@@ -12025,7 +11892,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "brunocfalcao/course-mastering-nova-silver-surfer": 20
+        "brunocfalcao/course-mastering-nova-silver-surfer": 20,
+        "brunocfalcao/course-nova-advanced-ui": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -12033,5 +11901,5 @@
         "php": "^8.1"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
