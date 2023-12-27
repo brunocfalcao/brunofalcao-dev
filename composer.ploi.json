@@ -9,27 +9,6 @@
     "license": "MIT",
     "repositories": [
         {
-            "type": "path",
-            "url": "packages/eduka/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "packages/laravel/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
-            "type": "path",
-            "url": "packages/brunocfalcao/*",
-            "options": {
-                "symlink": true
-            }
-        },
-        {
             "type": "composer",
             "url": "https://nova.laravel.com"
         }
@@ -41,13 +20,6 @@
         "brunocfalcao/course-mastering-nova-orion": "dev-master",
         "filp/whoops": "^2.15",
         "laravel/framework": "^10.8"
-    },
-    "require-dev": {
-        "pestphp/pest": "^2.24",
-        "nunomaduro/collision": "^7.0",
-        "jubeki/laravel-code-style": "^2.4",
-        "pestphp/pest-plugin-laravel": "^2.2",
-        "laracraft-tech/laravel-schema-rules": "^1.3"
     },
     "autoload": {
         "psr-4": {
