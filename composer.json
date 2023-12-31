@@ -37,10 +37,12 @@
     "require": {
         "php": "^8.1",
         "aws/aws-sdk-php": "^3.286",
-        "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
         "brunocfalcao/course-mastering-nova-orion": "dev-master",
+        "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
         "filp/whoops": "^2.15",
-        "laravel/framework": "^10.8"
+        "laravel/framework": "^10.8",
+        "laravel/ui": "^4.3",
+        "vimeo/laravel": "^5.8"
     },
     "require-dev": {
         "pestphp/pest": "^2.24",
