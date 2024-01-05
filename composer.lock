@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dff8e5d828d3f9f7321334eea249434e",
+    "content-hash": "5d8750aa565ee65dd7cde80a2ed2cd7a",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.295.6",
+            "version": "3.295.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "9b0b2daf46d5e6a4600575917cea0764e4dbb6b5"
+                "reference": "2372661db989fe4229abd95f4434b37252076d58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/9b0b2daf46d5e6a4600575917cea0764e4dbb6b5",
-                "reference": "9b0b2daf46d5e6a4600575917cea0764e4dbb6b5",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/2372661db989fe4229abd95f4434b37252076d58",
+                "reference": "2372661db989fe4229abd95f4434b37252076d58",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.295.6"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.295.4"
             },
-            "time": "2024-01-04T19:43:02+00:00"
+            "time": "2023-12-29T19:07:49+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -478,7 +478,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "28d806032a98970a791a145e61037d445d79a3d3"
+                "reference": "ff413cf89557f46e473fec480442efaaa1166d2f"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -518,7 +518,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "aa7734113381e790f7d0963dd2c68f2027299999"
+                "reference": "ef6a4b6eff22f7e245ff57d069841b6bea6b8183"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -558,7 +558,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "0e5f8f790066eae3b92b3e3c725226e0eb56a20d"
+                "reference": "d1efabe27fd4ebb756644b2abcf410ed49a3414a"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -596,7 +596,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "006abf6e05536d68191ea49480beac5d71454e30"
+                "reference": "5233a3c8bf7da063a025513b5fc7f38ea5f0034b"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -646,7 +646,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-dev",
-                "reference": "aba3c1228f5d5349a4ea0a4e63dfac42978cbeff"
+                "reference": "6d7462acc415c46a090a168778076af66c7a1555"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -729,7 +729,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "072b0a8489fdee80434d00c9a915193a4c137afa"
+                "reference": "b4e17343961b5db29d07ad45f00d3114c5a7bc27"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -778,7 +778,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "56bc0d84b49cdabf148ecae39fd258ad5bcabb90"
+                "reference": "3afed5b15501461d2960d066caa7562500997cc2"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -791,7 +791,6 @@
                 "brunocfalcao/eduka-services": "dev-master",
                 "brunocfalcao/eduka-ui": "dev-master",
                 "brunocfalcao/laravel-helpers": "dev-master",
-                "laravel/ui": "v4.3.0",
                 "php": "^8.0"
             },
             "type": "library",
@@ -838,7 +837,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "5b7fad5a473f3634fab3a39109e7a3efaea06291"
+                "reference": "eab4674fc69bfc2620056433afe062c2726b7538"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -895,7 +894,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "d80c9bf4888d5b4ade556f71eac3c6090ea1bc3f"
+                "reference": "a1775b40db5f564f1e2222d276672655f18f65f4"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -945,12 +944,11 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "499918aa1f4d94c233ba3fab5888a9b2eee89a22"
+                "reference": "81978aab6a719d96caf49ff53f7616521ae984ec"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
                 "brunocfalcao/eduka-cube": "dev-master",
-                "brunocfalcao/laravel-vimeo-client": "dev-master",
                 "brunocfalcao/laravel-zepto-mail-api-driver": "dev-master",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.0",
@@ -1047,7 +1045,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "f7cbe7a6086d69af72708a4d7cf5b8c36bf5996b"
+                "reference": "8a13535e1f36d9fbd49afda936e218ec57f3684e"
             },
             "require": {
                 "illuminate/contracts": "^10.0",
@@ -1180,58 +1178,6 @@
                 "brunocfalcao",
                 "eloquent",
                 "laravel"
-            ],
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
-        },
-        {
-            "name": "brunocfalcao/laravel-vimeo-client",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "packages/brunocfalcao/laravel-vimeo-client",
-                "reference": "0e3b0890b3b20fda2957f532300ae3500e08b814"
-            },
-            "require": {
-                "graham-campbell/manager": "^5.0",
-                "illuminate/contracts": "^10.0",
-                "php": "^8.1",
-                "vimeo/vimeo-api": "^3.0"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Brunocfalcao\\VimeoClient\\VimeoClientServiceProvider"
-                    ],
-                    "aliases": {
-                        "VimeoClient": "Brunocfalcao\\VimeoClient\\Facades\\VimeoClient"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Brunocfalcao\\VimeoClient\\": "src/"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Bruno Falcão",
-                    "email": "bruno.c.falcao@brunofalcao.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Laravel Vimeo Client - Enhanced",
-            "homepage": "https://github.com/brunocfalcao/brunocfalcao/laravel-vimeo-client",
-            "keywords": [
-                "brunocfalcao",
-                "laravel",
-                "vimeo"
             ],
             "transport-options": {
                 "symlink": true,
@@ -5667,16 +5613,16 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.25.0",
+            "version": "1.24.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpdoc-parser.git",
-                "reference": "bd84b629c8de41aa2ae82c067c955e06f1b00240"
+                "reference": "fedf211ff14ec8381c9bf5714e33a7a552dd1acc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/bd84b629c8de41aa2ae82c067c955e06f1b00240",
-                "reference": "bd84b629c8de41aa2ae82c067c955e06f1b00240",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/fedf211ff14ec8381c9bf5714e33a7a552dd1acc",
+                "reference": "fedf211ff14ec8381c9bf5714e33a7a552dd1acc",
                 "shasum": ""
             },
             "require": {
@@ -5708,9 +5654,9 @@
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "support": {
                 "issues": "https://github.com/phpstan/phpdoc-parser/issues",
-                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.25.0"
+                "source": "https://github.com/phpstan/phpdoc-parser/tree/1.24.5"
             },
-            "time": "2024-01-04T17:06:16+00:00"
+            "time": "2023-12-16T09:33:33+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -10957,6 +10903,80 @@
             "time": "2021-07-16T15:55:13+00:00"
         },
         {
+            "name": "vimeo/laravel",
+            "version": "5.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vimeo/laravel.git",
+                "reference": "c0ba374d1ff2ad8e0aa7fee62a2d8b9aa242eede"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vimeo/laravel/zipball/c0ba374d1ff2ad8e0aa7fee62a2d8b9aa242eede",
+                "reference": "c0ba374d1ff2ad8e0aa7fee62a2d8b9aa242eede",
+                "shasum": ""
+            },
+            "require": {
+                "graham-campbell/manager": "^5.0",
+                "illuminate/contracts": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "php": "^7.2|^8.0",
+                "vimeo/vimeo-api": "^3.0"
+            },
+            "require-dev": {
+                "graham-campbell/analyzer": "^2.0|^3.1",
+                "graham-campbell/testbench": "^5.2",
+                "laravel/framework": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
+                "laravel/lumen-framework": "^5.7",
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^7.0|^9.5.10",
+                "psalm/plugin-laravel": "^1.4.0|^1.1|^2.7",
+                "vimeo/psalm": "^3.17|^4.19|^5.6"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Vimeo\\Laravel\\VimeoServiceProvider"
+                    ],
+                    "aliases": {
+                        "Vimeo": "Vimeo\\Laravel\\Facades\\Vimeo"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Vimeo\\Laravel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jon Ursenbach",
+                    "email": "jonu@vimeo.com"
+                },
+                {
+                    "name": "Vincent Klaiber",
+                    "email": "hello@vinkla.com",
+                    "homepage": "https://vinkla.com"
+                }
+            ],
+            "description": "A Vimeo bridge for Laravel",
+            "keywords": [
+                "laravel",
+                "video",
+                "vimeo"
+            ],
+            "support": {
+                "issues": "https://github.com/vimeo/laravel/issues",
+                "source": "https://github.com/vimeo/laravel/tree/5.8.0"
+            },
+            "time": "2023-03-02T13:55:42+00:00"
+        },
+        {
             "name": "vimeo/vimeo-api",
             "version": "3.0.10",
             "source": {
@@ -11496,22 +11516,21 @@
         },
         {
             "name": "friendsofphp/php-cs-fixer",
-            "version": "v3.46.0",
+            "version": "v3.45.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer.git",
-                "reference": "be6831c9af1740470d2a773119b9273f8ac1c3d2"
+                "reference": "c0daa33cb2533cd73f48dde1c70c2afa3e7953b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/be6831c9af1740470d2a773119b9273f8ac1c3d2",
-                "reference": "be6831c9af1740470d2a773119b9273f8ac1c3d2",
+                "url": "https://api.github.com/repos/PHP-CS-Fixer/PHP-CS-Fixer/zipball/c0daa33cb2533cd73f48dde1c70c2afa3e7953b5",
+                "reference": "c0daa33cb2533cd73f48dde1c70c2afa3e7953b5",
                 "shasum": ""
             },
             "require": {
                 "composer/semver": "^3.4",
                 "composer/xdebug-handler": "^3.0.3",
-                "ext-filter": "*",
                 "ext-json": "*",
                 "ext-tokenizer": "*",
                 "php": "^7.4 || ^8.0",
@@ -11575,7 +11594,7 @@
             ],
             "support": {
                 "issues": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/issues",
-                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.46.0"
+                "source": "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/tree/v3.45.0"
             },
             "funding": [
                 {
@@ -11583,7 +11602,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-01-03T21:38:46+00:00"
+            "time": "2023-12-30T02:07:07+00:00"
         },
         {
             "name": "jubeki/laravel-code-style",
@@ -12125,8 +12144,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "brunocfalcao/course-mastering-nova-orion": 20,
-        "brunocfalcao/course-mastering-nova-silver-surfer": 20,
-        "brunocfalcao/laravel-vimeo-client": 20
+        "brunocfalcao/course-mastering-nova-silver-surfer": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
