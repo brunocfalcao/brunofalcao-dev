@@ -18,6 +18,7 @@ return [
      * For instance, if we want to change the eduka database structure in the
      * migration files, we need to have this parameter true.
      */
+    'skip_domain_detection' => env('EDUKA_SKIP_DOMAIN_DETECTION', false),
 
     'mail' => [
 
@@ -107,11 +108,9 @@ return [
      * resources/<vendor-name>/assets.
      *
      * e.g.: course-mastering-nova
-     *
-     * @deprecated
      */
     'assets-transfer-vendors' => [
-        //        'course-mastering-nova',
+        'course-mastering-nova',
         'dev',
     ],
 
@@ -126,6 +125,7 @@ return [
     'currency_symbol' => env('EDUKA_CURRENCY_SYMBOL', '€'),
 
     /**
+     * Will load the eduka service providers without verifying
      * if it's a frontend, backend, etc.
      */
     'skip_domain_detection' => env('EDUKA_SKIP_COURSE_DETECTION', false),
