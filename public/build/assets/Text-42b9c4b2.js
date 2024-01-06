@@ -1,1 +1,0 @@
-const a=t=>t.split(" ")[0][0].toUpperCase(),s=t=>{const r="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";let n="";for(let e=0;e<t;e++){const o=Math.floor(Math.random()*r.length);n+=r.charAt(o)}return n};export{a as G,s as a};

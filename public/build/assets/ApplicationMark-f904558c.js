@@ -1,1 +1,0 @@
-import{C as o}from"./base-71f93627.js";import{o as r,c as e,u as c,n as t}from"./app-420abc23.js";const n=["src"],_={__name:"ApplicationMark",props:{class:{type:String,default:"h-10"}},setup(s){const a=s;return(p,l)=>(r(),e("img",{src:c(o),class:t(a.class)},null,10,n))}};export{_};
