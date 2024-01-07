@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5d8750aa565ee65dd7cde80a2ed2cd7a",
+    "content-hash": "8a628c385687fd29fb51d7a3d4bee893",
     "packages": [
         {
             "name": "ankitpokhrel/tus-php",
@@ -518,7 +518,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "7bddfbe7b12a65cd864e57be25583cd806918bea"
+                "reference": "86a2fbcc3be3d823c5db11496f7c460605b19ea9"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -596,7 +596,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "a29ead364d6814c2c0730cbeed1f408255f59071"
+                "reference": "093c14680afbc70b1a86dbffa12cb3cdd68d3cb2"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -729,7 +729,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "dc6dc52b7f5654d92163c23bf33f182aa4ac1210"
+                "reference": "bdc182582c7cbe3f4793fd03c0ad0cd24b3cbd66"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -10955,80 +10955,6 @@
                 "source": "https://github.com/TitasGailius/nova-search-relations/tree/2.0.1"
             },
             "time": "2021-07-16T15:55:13+00:00"
-        },
-        {
-            "name": "vimeo/laravel",
-            "version": "5.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vimeo/laravel.git",
-                "reference": "c0ba374d1ff2ad8e0aa7fee62a2d8b9aa242eede"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vimeo/laravel/zipball/c0ba374d1ff2ad8e0aa7fee62a2d8b9aa242eede",
-                "reference": "c0ba374d1ff2ad8e0aa7fee62a2d8b9aa242eede",
-                "shasum": ""
-            },
-            "require": {
-                "graham-campbell/manager": "^5.0",
-                "illuminate/contracts": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-                "illuminate/support": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-                "php": "^7.2|^8.0",
-                "vimeo/vimeo-api": "^3.0"
-            },
-            "require-dev": {
-                "graham-campbell/analyzer": "^2.0|^3.1",
-                "graham-campbell/testbench": "^5.2",
-                "laravel/framework": "^5.8|^6.0|^7.0|^8.0|^9.0|^10.0",
-                "laravel/lumen-framework": "^5.7",
-                "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^7.0|^9.5.10",
-                "psalm/plugin-laravel": "^1.4.0|^1.1|^2.7",
-                "vimeo/psalm": "^3.17|^4.19|^5.6"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Vimeo\\Laravel\\VimeoServiceProvider"
-                    ],
-                    "aliases": {
-                        "Vimeo": "Vimeo\\Laravel\\Facades\\Vimeo"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Vimeo\\Laravel\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Jon Ursenbach",
-                    "email": "jonu@vimeo.com"
-                },
-                {
-                    "name": "Vincent Klaiber",
-                    "email": "hello@vinkla.com",
-                    "homepage": "https://vinkla.com"
-                }
-            ],
-            "description": "A Vimeo bridge for Laravel",
-            "keywords": [
-                "laravel",
-                "video",
-                "vimeo"
-            ],
-            "support": {
-                "issues": "https://github.com/vimeo/laravel/issues",
-                "source": "https://github.com/vimeo/laravel/tree/5.8.0"
-            },
-            "time": "2023-03-02T13:55:42+00:00"
         },
         {
             "name": "vimeo/vimeo-api",

@@ -41,8 +41,7 @@
         "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
         "filp/whoops": "^2.15",
         "laravel/framework": "^10.8",
-        "laravel/ui": "^4.3",
-        "vimeo/laravel": "^5.8"
+        "laravel/ui": "^4.3"
     },
     "require-dev": {
         "pestphp/pest": "^2.24",
