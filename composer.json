@@ -28,6 +28,7 @@
         "php": "^8.2",
         "brunocfalcao/course-mastering-nova-orion": "dev-master",
         "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
+        "jubeki/laravel-code-style": "^2.13",
         "laravel/framework": "^11.0",
         "laravel/nova": "^4.33",
         "spatie/laravel-honeypot": "^4.5"
@@ -64,7 +65,9 @@
             "@php artisan key:generate --ansi",
             "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
             "@php artisan migrate --graceful --ansi"
-        ]
+        ],
+        "check-style": "php-cs-fixer fix --dry-run --diff",
+        "fix-style": "php-cs-fixer fix"
     },
     "extra": {
         "branch-alias": {

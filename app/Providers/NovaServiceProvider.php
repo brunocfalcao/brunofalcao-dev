@@ -2,10 +2,10 @@
 
 namespace App\Providers;
 
-use Laravel\Nova\Nova;
 use Eduka\Cube\Models\Course;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
+use Laravel\Nova\Nova;
 use Laravel\Nova\NovaApplicationServiceProvider;
 
 class NovaServiceProvider extends NovaApplicationServiceProvider
@@ -66,7 +66,8 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
             $emails = Course::all()->pluck('admin_email');
 
             Gate::define('viewNova', function ($user) {
-                return in_array($user->email, $emails);
+                return in_array($user->email, $emails) ||
+                       $user->email == env('EDUKA_SUPER_ADMIN_EMAIL');
             });
         } else {
             Gate::define('viewNova', function () {
