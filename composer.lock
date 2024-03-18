@@ -478,7 +478,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "b6da1dfa2c224fd4aa3cbe26125482cf1e9972a5"
+                "reference": "37f59eaabaee8a371544efbde5f0da68618bc0f0"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -518,7 +518,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "9d37cd59d380be2737d9b95c17b2121b682079fc"
+                "reference": "e98a865d3f95525ec6eddb123083595bb930c4f5"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -558,7 +558,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "c1e55a0318a9161ff414c73067c574676215e351"
+                "reference": "36ac3353704d441fbc0208b656d64202b99788c5"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -597,7 +597,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "91d2eca5bf9dcb097cf204837b40d5ca2dc15502"
+                "reference": "aba655f87f2f24d47d1cc20c748040e877a88a13"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -646,7 +646,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-dev",
-                "reference": "2bd9a6250cf403f8b77a6aa55a2e28a758954762"
+                "reference": "815cb0a4cfb9e109cd20e6e84dde47dfd9243587"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -688,7 +688,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "9a586615b7e1e7001e401fc7ec513579871e9d9b"
+                "reference": "37427519146212dbf094ea9a70854726ac09c515"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -736,7 +736,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "346ba0d0ea73f0f082dcecf36fe4cb6703226ed2"
+                "reference": "15c0f97402b33c3a532fef1ef461cfb6daafad4d"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -796,7 +796,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "9e7de218e611e2743251bf0202d3a2c7952bad1e"
+                "reference": "ac3fada4fd8120e786ec7c34428c6de1b521f618"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -856,7 +856,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-payments",
-                "reference": "455b60a71a7933cf832e6832a7dc6083f80c3831"
+                "reference": "8b73ca09e8420fb2ff6512f7a805fce066058871"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -906,7 +906,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "22835329ebde6af352b6e2952eb7fa50d849c9e1"
+                "reference": "a02790f646d8f0481dde2eb0b230408632fce132"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -962,7 +962,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-ui",
-                "reference": "fee3123fee7187a31fece23a268b7c05c2d7a6da"
+                "reference": "cbebd85e1d84e0a56d006ce94ab7050b6193cacb"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -1106,7 +1106,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-tokenizer",
-                "reference": "96dde79d002b6086ec18777eb40e6e84f619c89d"
+                "reference": "926ce96bc7c1c1dcf23f2ddfe629980125ecda87"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -1153,7 +1153,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-vimeo-client",
-                "reference": "b2724dfea892d5169f0b43deb6ce3826a5140078"
+                "reference": "3982ab30ccc0969e5f9ab6751876703a4b1a1117"
             },
             "require": {
                 "graham-campbell/manager": "^5.0",
@@ -1205,7 +1205,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-zepto-mail-api-driver",
-                "reference": "3a420bd4eafc63ff060eb9c6350a6d53027f0a22"
+                "reference": "7c8dca7e0ea094ef1e9a29cf2ac285a351423f29"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
