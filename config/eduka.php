@@ -105,7 +105,7 @@ return [
             'tag' => false,
             'user' => false, //true
             'variant' => true, //true
-            'video' => true,
+            'episode' => true,
         ],
     ],
 ];

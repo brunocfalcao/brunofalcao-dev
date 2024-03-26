@@ -518,7 +518,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "60cda819269d1300f60f02c7733df224b3b1fe45"
+                "reference": "23efe63566a44a8b16eb5eeec53fc5d18c62baff"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -558,7 +558,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-abstracts",
-                "reference": "36ac3353704d441fbc0208b656d64202b99788c5"
+                "reference": "3ef39eac3a0fbea88ab28e47a7cf44fba2569a0f"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -597,7 +597,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "76a3620662c055d1cc84f8b70a7980fbfa3ebfa6"
+                "reference": "0ab8ab2d11f2abe1d751bb3b981f25edcda4da3c"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -688,7 +688,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "1be5b149ef398a21a7bb817773a0b8a2d6b22f4f"
+                "reference": "1bb335e7925932920a7cb3870cfac0795fcfb031"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -796,7 +796,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "a29a09c82e4ddfe140ec8f1d7668bdd678f111b7"
+                "reference": "0af7a22c100b7825f4b60ef39859ca293c3c780c"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -906,7 +906,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "fa49a6787a3bd3839a50cc372696d6ac7c28609c"
+                "reference": "1a8a7b912ac3b9d5bc2784417997bb8b2e5feb46"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -1008,7 +1008,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/brunocfalcao/laravel-helpers",
-                "reference": "02e690d355eab24e2a5c043f34ff0b1ed59936c2"
+                "reference": "1e56dde95992a8d1fe4b2da9ffafc5b4602e0956"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -3847,16 +3847,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.25.1",
+            "version": "3.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "abbd664eb4381102c559d358420989f835208f18"
+                "reference": "072735c56cc0da00e10716dd90d5a7f7b40b36be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/abbd664eb4381102c559d358420989f835208f18",
-                "reference": "abbd664eb4381102c559d358420989f835208f18",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/072735c56cc0da00e10716dd90d5a7f7b40b36be",
+                "reference": "072735c56cc0da00e10716dd90d5a7f7b40b36be",
                 "shasum": ""
             },
             "require": {
@@ -3921,7 +3921,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.25.1"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.26.0"
             },
             "funding": [
                 {
@@ -3933,20 +3933,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-16T12:53:19+00:00"
+            "time": "2024-03-25T11:49:53+00:00"
         },
         {
             "name": "league/flysystem-aws-s3-v3",
-            "version": "3.25.1",
+            "version": "3.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-aws-s3-v3.git",
-                "reference": "6a5be0e6d6a93574e80805c9cc108a4b63c824d8"
+                "reference": "885d0a758c71ae3cd6c503544573a1fdb8dc754f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/6a5be0e6d6a93574e80805c9cc108a4b63c824d8",
-                "reference": "6a5be0e6d6a93574e80805c9cc108a4b63c824d8",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-aws-s3-v3/zipball/885d0a758c71ae3cd6c503544573a1fdb8dc754f",
+                "reference": "885d0a758c71ae3cd6c503544573a1fdb8dc754f",
                 "shasum": ""
             },
             "require": {
@@ -3986,7 +3986,7 @@
                 "storage"
             ],
             "support": {
-                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/3.25.1"
+                "source": "https://github.com/thephpleague/flysystem-aws-s3-v3/tree/3.26.0"
             },
             "funding": [
                 {
@@ -3998,7 +3998,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-15T19:58:44+00:00"
+            "time": "2024-03-24T21:11:18+00:00"
         },
         {
             "name": "league/flysystem-local",
