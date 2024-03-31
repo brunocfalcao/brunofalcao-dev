@@ -132,16 +132,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.301.10",
+            "version": "3.302.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "f84a262c28bedf88d8aab5b9dad0adbc5faa0094"
+                "reference": "cb343ed4fc5d86c0ddf8e948f0271052f183f937"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/f84a262c28bedf88d8aab5b9dad0adbc5faa0094",
-                "reference": "f84a262c28bedf88d8aab5b9dad0adbc5faa0094",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cb343ed4fc5d86c0ddf8e948f0271052f183f937",
+                "reference": "cb343ed4fc5d86c0ddf8e948f0271052f183f937",
                 "shasum": ""
             },
             "require": {
@@ -221,9 +221,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.301.10"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.302.0"
             },
-            "time": "2024-03-28T18:13:20+00:00"
+            "time": "2024-03-29T18:07:04+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -478,7 +478,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "d93d9c81f6b3263ec806d8da34f539230b15df4f"
+                "reference": "b70c7bc42beadaa8f6a556c900bc1671971095e4"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -597,7 +597,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "1e04fb9b769de2ad83efdabfa520642938f25beb"
+                "reference": "7549ca941a97661b027a6e5110426773a744a2da"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -688,7 +688,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "1bb335e7925932920a7cb3870cfac0795fcfb031"
+                "reference": "0216b32725cc0496a433f158528423e2deeea5b0"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -796,7 +796,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "5721302d540f18ec89304a83c9f54a5eb7c8b413"
+                "reference": "025e5450e9ff998b1fe85a17cb7242bfff891a57"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -4628,16 +4628,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "2d69b6de67e2a3c0652d0c9dfcfda8b4563c4cee"
+                "reference": "4d599a6e2351d6b6bf21737accdfe1a4ce3fdbb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/2d69b6de67e2a3c0652d0c9dfcfda8b4563c4cee",
-                "reference": "2d69b6de67e2a3c0652d0c9dfcfda8b4563c4cee",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4d599a6e2351d6b6bf21737accdfe1a4ce3fdbb1",
+                "reference": "4d599a6e2351d6b6bf21737accdfe1a4ce3fdbb1",
                 "shasum": ""
             },
             "require": {
@@ -4730,7 +4730,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-28T12:59:49+00:00"
+            "time": "2024-03-30T18:22:00+00:00"
         },
         {
             "name": "nette/schema",
