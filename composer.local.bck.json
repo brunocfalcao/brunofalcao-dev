@@ -1,13 +1,24 @@
 {
-    "name": "brunocfalcao/brunofalcao-dev",
+    "name": "laravel/laravel",
     "type": "project",
-    "description": "The brunofalcao dot dev website",
-    "keywords": [
-        "framework",
-        "laravel"
-    ],
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": ["laravel", "framework"],
     "license": "MIT",
     "repositories": [
+        {
+            "type": "path",
+            "url": "packages/eduka/*",
+            "options": {
+                "symlink": true
+            }
+        },
+        {
+            "type": "path",
+            "url": "packages/brunocfalcao/*",
+            "options": {
+                "symlink": true
+            }
+        },
         {
             "type": "composer",
             "url": "https://nova.laravel.com"
@@ -17,14 +28,24 @@
         "php": "^8.2",
         "brunocfalcao/course-mastering-nova-orion": "dev-master",
         "brunocfalcao/course-mastering-nova-silver-surfer": "dev-master",
-        "filp/whoops": "^2.15",
-        "laravel/framework": "^10.8"
+        "laravel/framework": "^11.0"
+    },
+    "require-dev": {
+        "jubeki/laravel-code-style": "^2.13",
+        "fakerphp/faker": "^1.23",
+        "nunomaduro/collision": "^8.0",
+        "filp/whoops": "^2.15"
     },
     "autoload": {
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -38,13 +59,18 @@
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
-        "post-require-cmd": [
-        ],
         "post-create-project-cmd": [
-            "@php artisan key:generate --ansi"
-        ]
+            "@php artisan key:generate --ansi",
+            "@php -r \"file_exists('database/database.sqlite') || touch('database/database.sqlite');\"",
+            "@php artisan migrate --graceful --ansi"
+        ],
+        "check-style": "php-cs-fixer fix --dry-run --diff",
+        "fix-style": "php-cs-fixer fix"
     },
     "extra": {
+        "branch-alias": {
+            "dev-master": "11.x-dev"
+        },
         "laravel": {
             "dont-discover": []
         }
@@ -54,7 +80,8 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
-            "pestphp/pest-plugin": true
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
         }
     },
     "minimum-stability": "dev",
