@@ -31,4 +31,8 @@ return [
         ],
     ],
 
+    'zeptomail' => [
+        'key' => env('ZEPTOMAIL_API_KEY'),
+    ],
+
 ];
