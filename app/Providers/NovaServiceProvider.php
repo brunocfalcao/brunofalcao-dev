@@ -2,10 +2,11 @@
 
 namespace App\Providers;
 
+use Laravel\Nova\Nova;
 use Eduka\Cube\Models\Course;
+use Eduka\Cube\Models\Student;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
-use Laravel\Nova\Nova;
 use Laravel\Nova\NovaApplicationServiceProvider;
 
 class NovaServiceProvider extends NovaApplicationServiceProvider
@@ -63,11 +64,12 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
     protected function gate()
     {
         if (Schema::hasTable('courses')) {
-            $emails = Course::all()->pluck('admin_email');
+            $adminIds = Course::all()->pluck('student_admin_id');
+            $emails = Student::whereIn('email', $adminIds)->pluck('email');
 
-            Gate::define('viewNova', function ($user) {
+            Gate::define('viewNova', function ($user) use ($emails) {
                 return in_array($user->email, $emails) ||
-                       $user->email == env('EDUKA_SUPER_ADMIN_EMAIL');
+                   $user->email == env('EDUKA_SUPER_ADMIN_EMAIL');
             });
         } else {
             Gate::define('viewNova', function () {
