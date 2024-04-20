@@ -63,7 +63,7 @@ class NovaServiceProvider extends NovaApplicationServiceProvider
      */
     protected function gate()
     {
-        if (Schema::hasTable('courses')) {
+        if (Schema::hasTable('courses') && Schema::hasColumn('courses', 'student_admin_id')) {
             $adminIds = Course::all()->pluck('student_admin_id');
             $emails = Student::whereIn('email', $adminIds)->pluck('email');
 
