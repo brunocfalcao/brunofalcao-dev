@@ -2,11 +2,11 @@
 
 namespace App\Providers;
 
-use Laravel\Nova\Nova;
 use Eduka\Cube\Models\Course;
 use Eduka\Cube\Models\Student;
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Support\Facades\Schema;
+use Laravel\Nova\Nova;
 use Laravel\Nova\NovaApplicationServiceProvider;
 
 class NovaServiceProvider extends NovaApplicationServiceProvider
