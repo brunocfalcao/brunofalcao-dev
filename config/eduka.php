@@ -76,6 +76,7 @@ return [
         ],
 
         // E.g.: brunocfalcao/course-mastering-nova. Array key.
+        /*
         'brunocfalcao/course-mastering-nova-orion' => [
 
             // E.g.: MasteringNova\Database\Seeders\MasteringNovaCourseSeeder
@@ -84,6 +85,7 @@ return [
             // E.g.: MasteringNova\MasteringNovaServiceProvider
             'provider-class' => 'MasteringNovaOrion\MasteringNovaOrionServiceProvider',
         ],
+        */
     ],
 
     /**

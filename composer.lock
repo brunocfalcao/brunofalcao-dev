@@ -77,16 +77,16 @@
         },
         {
             "name": "aws/aws-crt-php",
-            "version": "v1.2.4",
+            "version": "v1.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/awslabs/aws-crt-php.git",
-                "reference": "eb0c6e4e142224a10b08f49ebf87f32611d162b2"
+                "reference": "0ea1f04ec5aa9f049f97e012d1ed63b76834a31b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/eb0c6e4e142224a10b08f49ebf87f32611d162b2",
-                "reference": "eb0c6e4e142224a10b08f49ebf87f32611d162b2",
+                "url": "https://api.github.com/repos/awslabs/aws-crt-php/zipball/0ea1f04ec5aa9f049f97e012d1ed63b76834a31b",
+                "reference": "0ea1f04ec5aa9f049f97e012d1ed63b76834a31b",
                 "shasum": ""
             },
             "require": {
@@ -125,22 +125,22 @@
             ],
             "support": {
                 "issues": "https://github.com/awslabs/aws-crt-php/issues",
-                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.4"
+                "source": "https://github.com/awslabs/aws-crt-php/tree/v1.2.5"
             },
-            "time": "2023-11-08T00:42:13+00:00"
+            "time": "2024-04-19T21:30:56+00:00"
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.305.0",
+            "version": "3.305.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "6992342acf7dd4501163c6cddabe76c74f2020ad"
+                "reference": "b190e24bd6568713436e1f13f9022bf28f491fc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/6992342acf7dd4501163c6cddabe76c74f2020ad",
-                "reference": "6992342acf7dd4501163c6cddabe76c74f2020ad",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b190e24bd6568713436e1f13f9022bf28f491fc1",
+                "reference": "b190e24bd6568713436e1f13f9022bf28f491fc1",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.305.0"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.305.3"
             },
-            "time": "2024-04-22T18:07:07+00:00"
+            "time": "2024-04-25T18:07:15+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -477,7 +477,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "c99c9d26b4b9d03e3a77439eee2ffe71441230be"
+                "reference": "c794cec8f79f9c5bc7e01ad802d2791fd5f71ce6"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -517,7 +517,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "d7affb85f3d069b29821914ffe9ec43fa14afc8f"
+                "reference": "4ed67a454851822708dc0dcf24f6cc9963aa366b"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -596,7 +596,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-cube",
-                "reference": "397f06b9ab60dd3868ca20a597e06d862bd90451"
+                "reference": "cdd7c9dd807ac14330429d1d18866f0864284811"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -687,7 +687,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "0216b32725cc0496a433f158528423e2deeea5b0"
+                "reference": "c3d299561096eb94e1f001ed42cefa4a38565de0"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -735,7 +735,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "354e21ba25fae62598461030f7e49f93c5b19084"
+                "reference": "bdd69ffcf5a95dbb66f7a7e643032a38ef66d143"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -796,7 +796,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "1cd27f41e769438987f28753440d625f7e84f9a4"
+                "reference": "1ae7516138bc35a4946694224d310f7d2b6a2f7b"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -906,7 +906,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "a5ecd64577a53dc1184256c358b651486a02312c"
+                "reference": "9b678241c5379c3a12fa07c71249fa3698109aa3"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -962,7 +962,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-ui",
-                "reference": "cbebd85e1d84e0a56d006ce94ab7050b6193cacb"
+                "reference": "90998fc754b1d73437cbcd795a882b6d13160e7a"
             },
             "require": {
                 "illuminate/contracts": "^10.0||^11.0",
@@ -1396,16 +1396,16 @@
         },
         {
             "name": "doctrine/dbal",
-            "version": "4.0.1",
+            "version": "4.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "9e588fe1f38a443cb17de6b86b803d9e028e2156"
+                "reference": "61d79c6e379a39dc1fea6b4e50a23dfc3cd2076a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/9e588fe1f38a443cb17de6b86b803d9e028e2156",
-                "reference": "9e588fe1f38a443cb17de6b86b803d9e028e2156",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/61d79c6e379a39dc1fea6b4e50a23dfc3cd2076a",
+                "reference": "61d79c6e379a39dc1fea6b4e50a23dfc3cd2076a",
                 "shasum": ""
             },
             "require": {
@@ -1484,7 +1484,7 @@
             ],
             "support": {
                 "issues": "https://github.com/doctrine/dbal/issues",
-                "source": "https://github.com/doctrine/dbal/tree/4.0.1"
+                "source": "https://github.com/doctrine/dbal/tree/4.0.2"
             },
             "funding": [
                 {
@@ -1500,7 +1500,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-03T15:59:11+00:00"
+            "time": "2024-04-25T08:29:52+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -2774,16 +2774,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v11.4.0",
+            "version": "v11.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c1dc67c28811dc5be524a30b18f29ce62126716a"
+                "reference": "e3c24268f1404805e15099b9f035fe310cb30753"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c1dc67c28811dc5be524a30b18f29ce62126716a",
-                "reference": "c1dc67c28811dc5be524a30b18f29ce62126716a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/e3c24268f1404805e15099b9f035fe310cb30753",
+                "reference": "e3c24268f1404805e15099b9f035fe310cb30753",
                 "shasum": ""
             },
             "require": {
@@ -2975,7 +2975,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2024-04-16T14:38:51+00:00"
+            "time": "2024-04-23T15:11:31+00:00"
         },
         {
             "name": "laravel/nova",
@@ -3105,16 +3105,16 @@
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.19",
+            "version": "v0.1.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "0ab75ac3434d9f610c5691758a6146a3d1940c18"
+                "reference": "bf9a360c484976692de0f3792f30066f4f4b34a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/0ab75ac3434d9f610c5691758a6146a3d1940c18",
-                "reference": "0ab75ac3434d9f610c5691758a6146a3d1940c18",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/bf9a360c484976692de0f3792f30066f4f4b34a2",
+                "reference": "bf9a360c484976692de0f3792f30066f4f4b34a2",
                 "shasum": ""
             },
             "require": {
@@ -3156,9 +3156,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.19"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.20"
             },
-            "time": "2024-04-16T14:20:35+00:00"
+            "time": "2024-04-18T00:45:25+00:00"
         },
         {
             "name": "laravel/serializable-closure",
