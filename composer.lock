@@ -131,16 +131,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.305.3",
+            "version": "3.305.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "b190e24bd6568713436e1f13f9022bf28f491fc1"
+                "reference": "fc26a2ebf720e0b75a353d7e8fe206796671e00b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/b190e24bd6568713436e1f13f9022bf28f491fc1",
-                "reference": "b190e24bd6568713436e1f13f9022bf28f491fc1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fc26a2ebf720e0b75a353d7e8fe206796671e00b",
+                "reference": "fc26a2ebf720e0b75a353d7e8fe206796671e00b",
                 "shasum": ""
             },
             "require": {
@@ -220,9 +220,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.305.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.305.4"
             },
-            "time": "2024-04-25T18:07:15+00:00"
+            "time": "2024-04-26T18:06:31+00:00"
         },
         {
             "name": "brianium/paratest",
@@ -477,7 +477,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-orion",
-                "reference": "c794cec8f79f9c5bc7e01ad802d2791fd5f71ce6"
+                "reference": "c71c3ada19cd2bca01cd5bf860b6d1c10962fd23"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -517,7 +517,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/course-mastering-nova-silver-surfer",
-                "reference": "4ed67a454851822708dc0dcf24f6cc9963aa366b"
+                "reference": "82541215a12d6eb1269173b49a5f10e5d77b3cb6"
             },
             "require": {
                 "brunocfalcao/eduka-nereus": "dev-master",
@@ -687,7 +687,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-migrations",
-                "reference": "c3d299561096eb94e1f001ed42cefa4a38565de0"
+                "reference": "d170ef6c2385b7646977dba81103f9608faefb0b"
             },
             "require": {
                 "brunocfalcao/eduka-abstracts": "dev-master",
@@ -735,7 +735,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nereus",
-                "reference": "bdd69ffcf5a95dbb66f7a7e643032a38ef66d143"
+                "reference": "f4ebb9f24c70c45fb690c8fae778918f368a179d"
             },
             "require": {
                 "brunocfalcao/cerebrus": "dev-master",
@@ -796,7 +796,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-nova",
-                "reference": "1ae7516138bc35a4946694224d310f7d2b6a2f7b"
+                "reference": "3d67e790c5ae9eb1ca0ea9a6ff344de9615ebc11"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
@@ -906,7 +906,7 @@
             "dist": {
                 "type": "path",
                 "url": "packages/eduka/eduka-services",
-                "reference": "9b678241c5379c3a12fa07c71249fa3698109aa3"
+                "reference": "b036fb43ecf625061da21bfcfb971f5fe5d31716"
             },
             "require": {
                 "aws/aws-sdk-php": "^3.286",
